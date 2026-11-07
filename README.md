@@ -1,4 +1,6 @@
-# CL4KT 论文复现
+# CL4KT-plus
+
+CL4KT 模型的修复版本，包含论文复现代码和实验结果。
 
 2026-11-05：其余五个数据集已在 **物理显卡 7** 上完成全部 **25 折**。连同上轮 ASSISTments09，六数据集 CL4KT 主模型五折实验均已完成。参见 [六数据集实验报告](docs/RESULTS_ALL.md)、[汇总 CSV](results/gpu7/all_datasets.csv) 和 [7 卡运行协议](docs/GPU7_EXPERIMENTS.md)。
 
