@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "physical_gpu": 7,
+  "cuda_visible_devices": "7",
+  "cuda_device_order": "PCI_BUS_ID",
+  "precision": "float32",
+  "training_batch_size": 512,
+  "activation_checkpointing": {
+    "enabled": true,
+    "target": "models.modules.CL4KTTransformerLayer.forward",
+    "use_reentrant": false,
+    "preserve_rng_state": true,
+    "condition": "module.training and torch.is_grad_enabled()"
+  },
+  "launcher_sha256": "83821a1d121ad3edeeb37f5463c6ef54d9713ebe7849825b2fb825eee348e61f",
+  "config_sha256": "fc580ab190d563b06e1cdde54ddd3116b3f031366f3cf1475ce2ae6d88529b64",
+  "torch": "2.6.0+cu124",
+  "cuda": "12.4",
+  "launcher_snapshot": "launcher/train_gpu7.py",
+  "previous_cuda_visible_devices": "7",
+  "previous_cuda_device_order": null,
+  "logical_device": "cuda:0",
+  "gpu_name": "NVIDIA GeForce RTX 4090",
+  "gpu_uuid": "8faa09bb-67c4-5def-c1c8-802f5f5271a8",
+  "physical_gpu_details": {
+    "index": 7,
+    "uuid": "GPU-8faa09bb-67c4-5def-c1c8-802f5f5271a8",
+    "pci_bus_id": "00000000:20:00.0"
+  },
+  "autocast_enabled": false,
+  "python": "3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:16:04) [GCC 11.2.0]",
+  "executable": "/data/sqh/CL4KT/.venv/bin/python",
+  "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+  "config_path": "/data/sqh/CL4KT/configs/bridge_algebra06.yaml",
+  "seed": 12405,
+  "optimizer": "Adam (unchanged main.py)",
+  "checkpointing_implementation": "runtime wrapper; core source files unchanged",
+  "command": [
+    "scripts/train_gpu7.py",
+    "--config",
+    "configs/bridge_algebra06.yaml",
+    "--device",
+    "cuda:0",
+    "--output-dir",
+    "/data/sqh/CL4KT/results/gpu7/bridge_algebra06-fivefold"
+  ],
+  "recorded_at": "2026-11-05T10:20:57.589396+08:00",
+  "exit_status": "success",
+  "failure": null,
+  "finished_at": "2026-11-05T10:35:56.696264+08:00",
+  "peak_cuda_memory_allocated": 3065760768,
+  "peak_cuda_memory_reserved": 3659530240
+}

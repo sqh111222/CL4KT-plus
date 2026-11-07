@@ -1,0 +1,16 @@
+{
+  "output": "/data/sqh/CL4KT/dataset/sampled_slepemapy",
+  "statistics": {
+    "students": 5000,
+    "questions": 2713,
+    "skills": 1380,
+    "interactions": 623212
+  },
+  "paper_statistics": {
+    "students": 5000,
+    "questions": 2723,
+    "skills": 1391,
+    "interactions": 625523
+  },
+  "exact_match": false
+}

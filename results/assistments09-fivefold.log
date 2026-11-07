@@ -1,0 +1,466 @@
+Run directory: /data/sqh/CL4KT/results/assistments09-fivefold
+Device: cuda:0; folds: [0, 1, 2, 3, 4]
+fold=0 epoch=001 loss=2.13939 val_auc=0.59584 best=0.59584@1 elapsed=6.9s
+fold=0 epoch=002 loss=1.84891 val_auc=0.61512 best=0.61512@2 elapsed=13.4s
+fold=0 epoch=003 loss=1.73775 val_auc=0.63207 best=0.63207@3 elapsed=19.8s
+fold=0 epoch=004 loss=1.65165 val_auc=0.66601 best=0.66601@4 elapsed=26.2s
+fold=0 epoch=005 loss=1.59126 val_auc=0.67475 best=0.67475@5 elapsed=32.7s
+fold=0 epoch=006 loss=1.55450 val_auc=0.70094 best=0.70094@6 elapsed=39.0s
+fold=0 epoch=007 loss=1.51796 val_auc=0.70863 best=0.70863@7 elapsed=45.4s
+fold=0 epoch=008 loss=1.49802 val_auc=0.71421 best=0.71421@8 elapsed=51.8s
+fold=0 epoch=009 loss=1.46483 val_auc=0.71948 best=0.71948@9 elapsed=58.1s
+fold=0 epoch=010 loss=1.45286 val_auc=0.72457 best=0.72457@10 elapsed=64.6s
+fold=0 epoch=011 loss=1.43409 val_auc=0.73191 best=0.73191@11 elapsed=71.0s
+fold=0 epoch=012 loss=1.42202 val_auc=0.73326 best=0.73326@12 elapsed=76.5s
+fold=0 epoch=013 loss=1.41358 val_auc=0.73735 best=0.73735@13 elapsed=82.9s
+fold=0 epoch=014 loss=1.39793 val_auc=0.74045 best=0.74045@14 elapsed=89.3s
+fold=0 epoch=015 loss=1.38755 val_auc=0.73998 best=0.74045@14 elapsed=95.7s
+fold=0 epoch=016 loss=1.38313 val_auc=0.74378 best=0.74378@16 elapsed=102.0s
+fold=0 epoch=017 loss=1.37438 val_auc=0.74318 best=0.74378@16 elapsed=108.5s
+fold=0 epoch=018 loss=1.36813 val_auc=0.74781 best=0.74781@18 elapsed=114.8s
+fold=0 epoch=019 loss=1.35850 val_auc=0.74162 best=0.74781@18 elapsed=121.3s
+fold=0 epoch=020 loss=1.35816 val_auc=0.73987 best=0.74781@18 elapsed=127.6s
+fold=0 epoch=021 loss=1.35271 val_auc=0.74525 best=0.74781@18 elapsed=134.0s
+fold=0 epoch=022 loss=1.34122 val_auc=0.74929 best=0.74929@22 elapsed=140.3s
+fold=0 epoch=023 loss=1.33737 val_auc=0.74631 best=0.74929@22 elapsed=146.8s
+fold=0 epoch=024 loss=1.33678 val_auc=0.74934 best=0.74934@24 elapsed=153.2s
+fold=0 epoch=025 loss=1.32907 val_auc=0.74849 best=0.74934@24 elapsed=159.8s
+fold=0 epoch=026 loss=1.32273 val_auc=0.74869 best=0.74934@24 elapsed=166.2s
+fold=0 epoch=027 loss=1.32656 val_auc=0.75002 best=0.75002@27 elapsed=172.5s
+fold=0 epoch=028 loss=1.31556 val_auc=0.74953 best=0.75002@27 elapsed=179.1s
+fold=0 epoch=029 loss=1.30909 val_auc=0.74980 best=0.75002@27 elapsed=184.7s
+fold=0 epoch=030 loss=1.30746 val_auc=0.74986 best=0.75002@27 elapsed=191.1s
+fold=0 epoch=031 loss=1.30246 val_auc=0.75143 best=0.75143@31 elapsed=197.4s
+fold=0 epoch=032 loss=1.29492 val_auc=0.75123 best=0.75143@31 elapsed=204.0s
+fold=0 epoch=033 loss=1.29719 val_auc=0.75196 best=0.75196@33 elapsed=210.3s
+fold=0 epoch=034 loss=1.28812 val_auc=0.75432 best=0.75432@34 elapsed=216.7s
+fold=0 epoch=035 loss=1.28371 val_auc=0.75264 best=0.75432@34 elapsed=223.1s
+fold=0 epoch=036 loss=1.27928 val_auc=0.75354 best=0.75432@34 elapsed=229.5s
+fold=0 epoch=037 loss=1.27731 val_auc=0.75371 best=0.75432@34 elapsed=235.8s
+fold=0 epoch=038 loss=1.27006 val_auc=0.75495 best=0.75495@38 elapsed=242.2s
+fold=0 epoch=039 loss=1.27210 val_auc=0.75295 best=0.75495@38 elapsed=248.7s
+fold=0 epoch=040 loss=1.26693 val_auc=0.75443 best=0.75495@38 elapsed=255.0s
+fold=0 epoch=041 loss=1.26228 val_auc=0.75284 best=0.75495@38 elapsed=261.3s
+fold=0 epoch=042 loss=1.26049 val_auc=0.75468 best=0.75495@38 elapsed=267.7s
+fold=0 epoch=043 loss=1.25826 val_auc=0.75287 best=0.75495@38 elapsed=274.2s
+fold=0 epoch=044 loss=1.25291 val_auc=0.75664 best=0.75664@44 elapsed=280.5s
+fold=0 epoch=045 loss=1.25248 val_auc=0.75211 best=0.75664@44 elapsed=286.7s
+fold=0 epoch=046 loss=1.25339 val_auc=0.75342 best=0.75664@44 elapsed=292.7s
+fold=0 epoch=047 loss=1.24727 val_auc=0.75630 best=0.75664@44 elapsed=299.1s
+fold=0 epoch=048 loss=1.24220 val_auc=0.75546 best=0.75664@44 elapsed=305.5s
+fold=0 epoch=049 loss=1.24163 val_auc=0.75665 best=0.75665@49 elapsed=311.9s
+fold=0 epoch=050 loss=1.23522 val_auc=0.75503 best=0.75665@49 elapsed=318.3s
+fold=0 epoch=051 loss=1.23150 val_auc=0.75781 best=0.75781@51 elapsed=324.6s
+fold=0 epoch=052 loss=1.23034 val_auc=0.75435 best=0.75781@51 elapsed=331.1s
+fold=0 epoch=053 loss=1.22895 val_auc=0.75606 best=0.75781@51 elapsed=337.5s
+fold=0 epoch=054 loss=1.22775 val_auc=0.75731 best=0.75781@51 elapsed=343.8s
+fold=0 epoch=055 loss=1.21962 val_auc=0.75659 best=0.75781@51 elapsed=350.2s
+fold=0 epoch=056 loss=1.21944 val_auc=0.75824 best=0.75824@56 elapsed=356.7s
+fold=0 epoch=057 loss=1.21426 val_auc=0.75640 best=0.75824@56 elapsed=363.1s
+fold=0 epoch=058 loss=1.21610 val_auc=0.75708 best=0.75824@56 elapsed=369.5s
+fold=0 epoch=059 loss=1.21405 val_auc=0.75724 best=0.75824@56 elapsed=375.9s
+fold=0 epoch=060 loss=1.20889 val_auc=0.75819 best=0.75824@56 elapsed=382.2s
+fold=0 epoch=061 loss=1.20647 val_auc=0.75632 best=0.75824@56 elapsed=388.5s
+fold=0 epoch=062 loss=1.20777 val_auc=0.75262 best=0.75824@56 elapsed=394.4s
+fold=0 epoch=063 loss=1.20725 val_auc=0.75704 best=0.75824@56 elapsed=400.5s
+fold=0 epoch=064 loss=1.20120 val_auc=0.75728 best=0.75824@56 elapsed=406.8s
+fold=0 epoch=065 loss=1.19896 val_auc=0.75743 best=0.75824@56 elapsed=413.3s
+fold=0 epoch=066 loss=1.19690 val_auc=0.75945 best=0.75945@66 elapsed=419.7s
+fold=0 epoch=067 loss=1.18879 val_auc=0.75870 best=0.75945@66 elapsed=426.0s
+fold=0 epoch=068 loss=1.19070 val_auc=0.76007 best=0.76007@68 elapsed=432.4s
+fold=0 epoch=069 loss=1.18614 val_auc=0.75641 best=0.76007@68 elapsed=438.7s
+fold=0 epoch=070 loss=1.18268 val_auc=0.75941 best=0.76007@68 elapsed=445.2s
+fold=0 epoch=071 loss=1.17894 val_auc=0.75903 best=0.76007@68 elapsed=451.6s
+fold=0 epoch=072 loss=1.18061 val_auc=0.75651 best=0.76007@68 elapsed=457.9s
+fold=0 epoch=073 loss=1.17818 val_auc=0.75988 best=0.76007@68 elapsed=464.4s
+fold=0 epoch=074 loss=1.17362 val_auc=0.75622 best=0.76007@68 elapsed=470.8s
+fold=0 epoch=075 loss=1.17503 val_auc=0.75651 best=0.76007@68 elapsed=477.1s
+fold=0 epoch=076 loss=1.16964 val_auc=0.75767 best=0.76007@68 elapsed=483.6s
+fold=0 epoch=077 loss=1.16592 val_auc=0.75773 best=0.76007@68 elapsed=490.0s
+fold=0 epoch=078 loss=1.16384 val_auc=0.75972 best=0.76007@68 elapsed=496.3s
+TEST fold=0: {"auc": 0.7641881035861489, "rmse": 0.43137161364534693, "acc": 0.7206817782463539, "count": 28455, "fold": 0, "seed": 12405, "best_epoch": 68, "best_valid_auc": 0.7600665989030768, "epochs_run": 78, "elapsed_seconds": 496.767, "checkpoint_sha256": "0136bffe2c4977ff21130ef1bc14ef3b48e3683c12867dc93c8f8ba78c3d8661"}
+fold=1 epoch=001 loss=2.09915 val_auc=0.59587 best=0.59587@1 elapsed=5.5s
+fold=1 epoch=002 loss=1.82433 val_auc=0.62528 best=0.62528@2 elapsed=11.9s
+fold=1 epoch=003 loss=1.71802 val_auc=0.64731 best=0.64731@3 elapsed=18.3s
+fold=1 epoch=004 loss=1.64348 val_auc=0.68765 best=0.68765@4 elapsed=24.7s
+fold=1 epoch=005 loss=1.58218 val_auc=0.70773 best=0.70773@5 elapsed=31.2s
+fold=1 epoch=006 loss=1.54769 val_auc=0.70998 best=0.70998@6 elapsed=37.6s
+fold=1 epoch=007 loss=1.50800 val_auc=0.71750 best=0.71750@7 elapsed=44.0s
+fold=1 epoch=008 loss=1.48556 val_auc=0.72173 best=0.72173@8 elapsed=50.5s
+fold=1 epoch=009 loss=1.46771 val_auc=0.72714 best=0.72714@9 elapsed=56.8s
+fold=1 epoch=010 loss=1.44904 val_auc=0.73031 best=0.73031@10 elapsed=63.2s
+fold=1 epoch=011 loss=1.43544 val_auc=0.72907 best=0.73031@10 elapsed=69.6s
+fold=1 epoch=012 loss=1.42106 val_auc=0.73287 best=0.73287@12 elapsed=76.1s
+fold=1 epoch=013 loss=1.41514 val_auc=0.73200 best=0.73287@12 elapsed=82.5s
+fold=1 epoch=014 loss=1.40202 val_auc=0.73825 best=0.73825@14 elapsed=88.9s
+fold=1 epoch=015 loss=1.39191 val_auc=0.73870 best=0.73870@15 elapsed=95.3s
+fold=1 epoch=016 loss=1.38018 val_auc=0.74149 best=0.74149@16 elapsed=101.7s
+fold=1 epoch=017 loss=1.37551 val_auc=0.74182 best=0.74182@17 elapsed=108.0s
+fold=1 epoch=018 loss=1.37002 val_auc=0.74342 best=0.74342@18 elapsed=113.8s
+fold=1 epoch=019 loss=1.35757 val_auc=0.74613 best=0.74613@19 elapsed=120.2s
+fold=1 epoch=020 loss=1.35305 val_auc=0.74540 best=0.74613@19 elapsed=126.6s
+fold=1 epoch=021 loss=1.34929 val_auc=0.74466 best=0.74613@19 elapsed=133.1s
+fold=1 epoch=022 loss=1.34111 val_auc=0.74715 best=0.74715@22 elapsed=139.5s
+fold=1 epoch=023 loss=1.33742 val_auc=0.74801 best=0.74801@23 elapsed=145.8s
+fold=1 epoch=024 loss=1.33329 val_auc=0.74668 best=0.74801@23 elapsed=152.2s
+fold=1 epoch=025 loss=1.32726 val_auc=0.74901 best=0.74901@25 elapsed=158.7s
+fold=1 epoch=026 loss=1.32095 val_auc=0.75119 best=0.75119@26 elapsed=165.1s
+fold=1 epoch=027 loss=1.31339 val_auc=0.75259 best=0.75259@27 elapsed=171.5s
+fold=1 epoch=028 loss=1.30850 val_auc=0.75134 best=0.75259@27 elapsed=178.0s
+fold=1 epoch=029 loss=1.30149 val_auc=0.75196 best=0.75259@27 elapsed=184.3s
+fold=1 epoch=030 loss=1.30345 val_auc=0.75278 best=0.75278@30 elapsed=190.7s
+fold=1 epoch=031 loss=1.29685 val_auc=0.75413 best=0.75413@31 elapsed=197.0s
+fold=1 epoch=032 loss=1.29536 val_auc=0.75482 best=0.75482@32 elapsed=203.5s
+fold=1 epoch=033 loss=1.29165 val_auc=0.75505 best=0.75505@33 elapsed=209.9s
+fold=1 epoch=034 loss=1.28369 val_auc=0.75302 best=0.75505@33 elapsed=216.2s
+fold=1 epoch=035 loss=1.28597 val_auc=0.75516 best=0.75516@35 elapsed=222.1s
+fold=1 epoch=036 loss=1.27692 val_auc=0.75166 best=0.75516@35 elapsed=228.5s
+fold=1 epoch=037 loss=1.27576 val_auc=0.75605 best=0.75605@37 elapsed=234.8s
+fold=1 epoch=038 loss=1.28000 val_auc=0.74930 best=0.75605@37 elapsed=241.2s
+fold=1 epoch=039 loss=1.27242 val_auc=0.75328 best=0.75605@37 elapsed=247.7s
+fold=1 epoch=040 loss=1.26687 val_auc=0.75481 best=0.75605@37 elapsed=254.0s
+fold=1 epoch=041 loss=1.25907 val_auc=0.75754 best=0.75754@41 elapsed=260.4s
+fold=1 epoch=042 loss=1.25380 val_auc=0.75670 best=0.75754@41 elapsed=266.7s
+fold=1 epoch=043 loss=1.25699 val_auc=0.75827 best=0.75827@43 elapsed=273.2s
+fold=1 epoch=044 loss=1.25205 val_auc=0.75711 best=0.75827@43 elapsed=279.6s
+fold=1 epoch=045 loss=1.24791 val_auc=0.75783 best=0.75827@43 elapsed=285.9s
+fold=1 epoch=046 loss=1.24690 val_auc=0.75887 best=0.75887@46 elapsed=292.4s
+fold=1 epoch=047 loss=1.24040 val_auc=0.75631 best=0.75887@46 elapsed=298.7s
+fold=1 epoch=048 loss=1.24215 val_auc=0.75940 best=0.75940@48 elapsed=305.1s
+fold=1 epoch=049 loss=1.23673 val_auc=0.75538 best=0.75940@48 elapsed=311.5s
+fold=1 epoch=050 loss=1.23630 val_auc=0.75722 best=0.75940@48 elapsed=318.0s
+fold=1 epoch=051 loss=1.22926 val_auc=0.75598 best=0.75940@48 elapsed=324.2s
+fold=1 epoch=052 loss=1.22935 val_auc=0.75480 best=0.75940@48 elapsed=330.0s
+fold=1 epoch=053 loss=1.23567 val_auc=0.75749 best=0.75940@48 elapsed=336.5s
+fold=1 epoch=054 loss=1.22647 val_auc=0.75736 best=0.75940@48 elapsed=342.9s
+fold=1 epoch=055 loss=1.22029 val_auc=0.75710 best=0.75940@48 elapsed=349.2s
+fold=1 epoch=056 loss=1.22399 val_auc=0.75842 best=0.75940@48 elapsed=355.6s
+fold=1 epoch=057 loss=1.21726 val_auc=0.75689 best=0.75940@48 elapsed=362.1s
+fold=1 epoch=058 loss=1.21309 val_auc=0.75780 best=0.75940@48 elapsed=368.4s
+TEST fold=1: {"auc": 0.7634794539081615, "rmse": 0.43147284928012425, "acc": 0.7223107293759091, "count": 28874, "fold": 1, "seed": 12406, "best_epoch": 48, "best_valid_auc": 0.7593965797830695, "epochs_run": 58, "elapsed_seconds": 368.872, "checkpoint_sha256": "58507417b8faf6db01cc7a5536a3247cd2c76aeca5eb3942e34b8adafb739dc1"}
+fold=2 epoch=001 loss=2.09148 val_auc=0.59445 best=0.59445@1 elapsed=6.5s
+fold=2 epoch=002 loss=1.83373 val_auc=0.60686 best=0.60686@2 elapsed=12.9s
+fold=2 epoch=003 loss=1.72746 val_auc=0.64878 best=0.64878@3 elapsed=19.2s
+fold=2 epoch=004 loss=1.64200 val_auc=0.68646 best=0.68646@4 elapsed=25.6s
+fold=2 epoch=005 loss=1.58398 val_auc=0.70227 best=0.70227@5 elapsed=32.1s
+fold=2 epoch=006 loss=1.54644 val_auc=0.71915 best=0.71915@6 elapsed=38.5s
+fold=2 epoch=007 loss=1.51446 val_auc=0.72241 best=0.72241@7 elapsed=45.0s
+fold=2 epoch=008 loss=1.48875 val_auc=0.72847 best=0.72847@8 elapsed=51.5s
+fold=2 epoch=009 loss=1.46366 val_auc=0.73102 best=0.73102@9 elapsed=57.9s
+fold=2 epoch=010 loss=1.44821 val_auc=0.73853 best=0.73853@10 elapsed=63.5s
+fold=2 epoch=011 loss=1.43234 val_auc=0.74550 best=0.74550@11 elapsed=69.9s
+fold=2 epoch=012 loss=1.41849 val_auc=0.74594 best=0.74594@12 elapsed=76.4s
+fold=2 epoch=013 loss=1.40921 val_auc=0.75090 best=0.75090@13 elapsed=82.8s
+fold=2 epoch=014 loss=1.39565 val_auc=0.75182 best=0.75182@14 elapsed=89.2s
+fold=2 epoch=015 loss=1.38807 val_auc=0.75394 best=0.75394@15 elapsed=95.7s
+fold=2 epoch=016 loss=1.38324 val_auc=0.75550 best=0.75550@16 elapsed=102.1s
+fold=2 epoch=017 loss=1.37086 val_auc=0.75694 best=0.75694@17 elapsed=108.5s
+fold=2 epoch=018 loss=1.36122 val_auc=0.75695 best=0.75695@18 elapsed=114.8s
+fold=2 epoch=019 loss=1.35628 val_auc=0.75837 best=0.75837@19 elapsed=121.3s
+fold=2 epoch=020 loss=1.35478 val_auc=0.75920 best=0.75920@20 elapsed=127.6s
+fold=2 epoch=021 loss=1.34754 val_auc=0.75808 best=0.75920@20 elapsed=134.0s
+fold=2 epoch=022 loss=1.34435 val_auc=0.75595 best=0.75920@20 elapsed=140.5s
+fold=2 epoch=023 loss=1.33562 val_auc=0.75912 best=0.75920@20 elapsed=146.8s
+fold=2 epoch=024 loss=1.32692 val_auc=0.76122 best=0.76122@24 elapsed=153.2s
+fold=2 epoch=025 loss=1.32476 val_auc=0.76062 best=0.76122@24 elapsed=159.6s
+fold=2 epoch=026 loss=1.32306 val_auc=0.76224 best=0.76224@26 elapsed=166.0s
+fold=2 epoch=027 loss=1.31462 val_auc=0.76178 best=0.76224@26 elapsed=171.6s
+fold=2 epoch=028 loss=1.31182 val_auc=0.76425 best=0.76425@28 elapsed=178.0s
+fold=2 epoch=029 loss=1.30537 val_auc=0.76288 best=0.76425@28 elapsed=184.5s
+fold=2 epoch=030 loss=1.30251 val_auc=0.76461 best=0.76461@30 elapsed=190.9s
+fold=2 epoch=031 loss=1.29926 val_auc=0.76469 best=0.76469@31 elapsed=197.2s
+fold=2 epoch=032 loss=1.29131 val_auc=0.76537 best=0.76537@32 elapsed=203.6s
+fold=2 epoch=033 loss=1.28788 val_auc=0.76678 best=0.76678@33 elapsed=210.0s
+fold=2 epoch=034 loss=1.28520 val_auc=0.76528 best=0.76678@33 elapsed=216.5s
+fold=2 epoch=035 loss=1.28321 val_auc=0.76548 best=0.76678@33 elapsed=222.8s
+fold=2 epoch=036 loss=1.28118 val_auc=0.76562 best=0.76678@33 elapsed=229.2s
+fold=2 epoch=037 loss=1.28201 val_auc=0.76428 best=0.76678@33 elapsed=235.7s
+fold=2 epoch=038 loss=1.27727 val_auc=0.76038 best=0.76678@33 elapsed=242.0s
+fold=2 epoch=039 loss=1.27381 val_auc=0.76299 best=0.76678@33 elapsed=248.4s
+fold=2 epoch=040 loss=1.26747 val_auc=0.76530 best=0.76678@33 elapsed=254.9s
+fold=2 epoch=041 loss=1.26334 val_auc=0.76705 best=0.76705@41 elapsed=261.2s
+fold=2 epoch=042 loss=1.26071 val_auc=0.76497 best=0.76705@41 elapsed=267.6s
+fold=2 epoch=043 loss=1.25740 val_auc=0.76809 best=0.76809@43 elapsed=274.0s
+fold=2 epoch=044 loss=1.25540 val_auc=0.76579 best=0.76809@43 elapsed=279.6s
+fold=2 epoch=045 loss=1.25092 val_auc=0.76776 best=0.76809@43 elapsed=286.1s
+fold=2 epoch=046 loss=1.25042 val_auc=0.76885 best=0.76885@46 elapsed=292.5s
+fold=2 epoch=047 loss=1.24610 val_auc=0.76508 best=0.76885@46 elapsed=299.0s
+fold=2 epoch=048 loss=1.24505 val_auc=0.76816 best=0.76885@46 elapsed=305.3s
+fold=2 epoch=049 loss=1.23727 val_auc=0.76844 best=0.76885@46 elapsed=311.7s
+fold=2 epoch=050 loss=1.23309 val_auc=0.76794 best=0.76885@46 elapsed=318.0s
+fold=2 epoch=051 loss=1.23593 val_auc=0.76787 best=0.76885@46 elapsed=324.4s
+fold=2 epoch=052 loss=1.22835 val_auc=0.76783 best=0.76885@46 elapsed=330.8s
+fold=2 epoch=053 loss=1.22449 val_auc=0.76993 best=0.76993@53 elapsed=337.2s
+fold=2 epoch=054 loss=1.22347 val_auc=0.76825 best=0.76993@53 elapsed=343.6s
+fold=2 epoch=055 loss=1.21674 val_auc=0.76751 best=0.76993@53 elapsed=350.0s
+fold=2 epoch=056 loss=1.21825 val_auc=0.77095 best=0.77095@56 elapsed=356.4s
+fold=2 epoch=057 loss=1.21401 val_auc=0.76770 best=0.77095@56 elapsed=362.8s
+fold=2 epoch=058 loss=1.21360 val_auc=0.76703 best=0.77095@56 elapsed=369.1s
+fold=2 epoch=059 loss=1.21186 val_auc=0.76745 best=0.77095@56 elapsed=375.6s
+fold=2 epoch=060 loss=1.20883 val_auc=0.76942 best=0.77095@56 elapsed=381.9s
+fold=2 epoch=061 loss=1.20658 val_auc=0.76916 best=0.77095@56 elapsed=387.4s
+fold=2 epoch=062 loss=1.20359 val_auc=0.76917 best=0.77095@56 elapsed=393.8s
+fold=2 epoch=063 loss=1.19836 val_auc=0.76765 best=0.77095@56 elapsed=400.2s
+fold=2 epoch=064 loss=1.19959 val_auc=0.76945 best=0.77095@56 elapsed=406.6s
+fold=2 epoch=065 loss=1.19215 val_auc=0.76973 best=0.77095@56 elapsed=413.1s
+fold=2 epoch=066 loss=1.19110 val_auc=0.77105 best=0.77105@66 elapsed=419.5s
+fold=2 epoch=067 loss=1.18711 val_auc=0.77162 best=0.77162@67 elapsed=425.8s
+fold=2 epoch=068 loss=1.18832 val_auc=0.76804 best=0.77162@67 elapsed=432.3s
+fold=2 epoch=069 loss=1.18699 val_auc=0.76868 best=0.77162@67 elapsed=438.7s
+fold=2 epoch=070 loss=1.18352 val_auc=0.76995 best=0.77162@67 elapsed=445.0s
+fold=2 epoch=071 loss=1.18042 val_auc=0.76857 best=0.77162@67 elapsed=451.4s
+fold=2 epoch=072 loss=1.17998 val_auc=0.76952 best=0.77162@67 elapsed=457.8s
+fold=2 epoch=073 loss=1.17815 val_auc=0.76719 best=0.77162@67 elapsed=464.2s
+fold=2 epoch=074 loss=1.18038 val_auc=0.76833 best=0.77162@67 elapsed=470.5s
+fold=2 epoch=075 loss=1.17167 val_auc=0.76707 best=0.77162@67 elapsed=476.9s
+fold=2 epoch=076 loss=1.17230 val_auc=0.77004 best=0.77162@67 elapsed=483.3s
+fold=2 epoch=077 loss=1.17020 val_auc=0.76992 best=0.77162@67 elapsed=489.5s
+TEST fold=2: {"auc": 0.7593734452043267, "rmse": 0.4312868696844056, "acc": 0.7243949661181026, "count": 30990, "fold": 2, "seed": 12407, "best_epoch": 67, "best_valid_auc": 0.7716210420625631, "epochs_run": 77, "elapsed_seconds": 489.614, "checkpoint_sha256": "62986da3ca420f57d6dec8825d6dfd55ea2c58e5dfcc9d62e8c8d9f7e274e809"}
+fold=3 epoch=001 loss=2.17676 val_auc=0.58943 best=0.58943@1 elapsed=6.5s
+fold=3 epoch=002 loss=1.85851 val_auc=0.60933 best=0.60933@2 elapsed=12.9s
+fold=3 epoch=003 loss=1.72833 val_auc=0.63400 best=0.63400@3 elapsed=19.4s
+fold=3 epoch=004 loss=1.65202 val_auc=0.67579 best=0.67579@4 elapsed=25.7s
+fold=3 epoch=005 loss=1.60343 val_auc=0.69405 best=0.69405@5 elapsed=32.1s
+fold=3 epoch=006 loss=1.55776 val_auc=0.71598 best=0.71598@6 elapsed=38.4s
+fold=3 epoch=007 loss=1.52727 val_auc=0.72112 best=0.72112@7 elapsed=44.9s
+fold=3 epoch=008 loss=1.51234 val_auc=0.71784 best=0.72112@7 elapsed=51.3s
+fold=3 epoch=009 loss=1.48509 val_auc=0.72354 best=0.72354@9 elapsed=57.6s
+fold=3 epoch=010 loss=1.46864 val_auc=0.73056 best=0.73056@10 elapsed=64.1s
+fold=3 epoch=011 loss=1.45312 val_auc=0.73908 best=0.73908@11 elapsed=70.5s
+fold=3 epoch=012 loss=1.43773 val_auc=0.73975 best=0.73975@12 elapsed=76.9s
+fold=3 epoch=013 loss=1.42805 val_auc=0.74478 best=0.74478@13 elapsed=83.3s
+fold=3 epoch=014 loss=1.41274 val_auc=0.74700 best=0.74700@14 elapsed=89.8s
+fold=3 epoch=015 loss=1.40500 val_auc=0.74983 best=0.74983@15 elapsed=96.2s
+fold=3 epoch=016 loss=1.40478 val_auc=0.75159 best=0.75159@16 elapsed=102.6s
+fold=3 epoch=017 loss=1.38774 val_auc=0.75184 best=0.75184@17 elapsed=108.5s
+fold=3 epoch=018 loss=1.38410 val_auc=0.75482 best=0.75482@18 elapsed=114.9s
+fold=3 epoch=019 loss=1.37425 val_auc=0.75497 best=0.75497@19 elapsed=121.2s
+fold=3 epoch=020 loss=1.36889 val_auc=0.75843 best=0.75843@20 elapsed=127.6s
+fold=3 epoch=021 loss=1.36201 val_auc=0.75872 best=0.75872@21 elapsed=134.1s
+fold=3 epoch=022 loss=1.35503 val_auc=0.75920 best=0.75920@22 elapsed=140.4s
+fold=3 epoch=023 loss=1.34832 val_auc=0.75936 best=0.75936@23 elapsed=146.8s
+fold=3 epoch=024 loss=1.34301 val_auc=0.76137 best=0.76137@24 elapsed=153.3s
+fold=3 epoch=025 loss=1.33571 val_auc=0.76054 best=0.76137@24 elapsed=159.7s
+fold=3 epoch=026 loss=1.33417 val_auc=0.76162 best=0.76162@26 elapsed=166.0s
+fold=3 epoch=027 loss=1.33286 val_auc=0.76072 best=0.76162@26 elapsed=172.4s
+fold=3 epoch=028 loss=1.32488 val_auc=0.76362 best=0.76362@28 elapsed=178.9s
+fold=3 epoch=029 loss=1.32094 val_auc=0.76053 best=0.76362@28 elapsed=185.2s
+fold=3 epoch=030 loss=1.31888 val_auc=0.76274 best=0.76362@28 elapsed=191.6s
+fold=3 epoch=031 loss=1.31158 val_auc=0.76335 best=0.76362@28 elapsed=198.1s
+fold=3 epoch=032 loss=1.30931 val_auc=0.76228 best=0.76362@28 elapsed=204.5s
+fold=3 epoch=033 loss=1.30637 val_auc=0.76395 best=0.76395@33 elapsed=210.8s
+fold=3 epoch=034 loss=1.30121 val_auc=0.76496 best=0.76496@34 elapsed=216.0s
+fold=3 epoch=035 loss=1.29767 val_auc=0.76303 best=0.76496@34 elapsed=222.5s
+fold=3 epoch=036 loss=1.29272 val_auc=0.76541 best=0.76541@36 elapsed=228.9s
+fold=3 epoch=037 loss=1.28743 val_auc=0.76676 best=0.76676@37 elapsed=235.2s
+fold=3 epoch=038 loss=1.28519 val_auc=0.76450 best=0.76676@37 elapsed=241.6s
+fold=3 epoch=039 loss=1.27964 val_auc=0.76807 best=0.76807@39 elapsed=248.1s
+fold=3 epoch=040 loss=1.27562 val_auc=0.76774 best=0.76807@39 elapsed=254.5s
+fold=3 epoch=041 loss=1.27252 val_auc=0.76245 best=0.76807@39 elapsed=260.8s
+fold=3 epoch=042 loss=1.27362 val_auc=0.76817 best=0.76817@42 elapsed=267.2s
+fold=3 epoch=043 loss=1.26901 val_auc=0.76549 best=0.76817@42 elapsed=273.7s
+fold=3 epoch=044 loss=1.27077 val_auc=0.76557 best=0.76817@42 elapsed=280.0s
+fold=3 epoch=045 loss=1.26265 val_auc=0.76526 best=0.76817@42 elapsed=286.3s
+fold=3 epoch=046 loss=1.25753 val_auc=0.76734 best=0.76817@42 elapsed=292.8s
+fold=3 epoch=047 loss=1.25332 val_auc=0.76747 best=0.76817@42 elapsed=299.2s
+fold=3 epoch=048 loss=1.24993 val_auc=0.76574 best=0.76817@42 elapsed=305.6s
+fold=3 epoch=049 loss=1.25020 val_auc=0.76714 best=0.76817@42 elapsed=312.0s
+fold=3 epoch=050 loss=1.24561 val_auc=0.76445 best=0.76817@42 elapsed=318.4s
+fold=3 epoch=051 loss=1.23985 val_auc=0.76848 best=0.76848@51 elapsed=323.5s
+fold=3 epoch=052 loss=1.23916 val_auc=0.76675 best=0.76848@51 elapsed=329.9s
+fold=3 epoch=053 loss=1.23880 val_auc=0.76691 best=0.76848@51 elapsed=336.3s
+fold=3 epoch=054 loss=1.23144 val_auc=0.76817 best=0.76848@51 elapsed=342.7s
+fold=3 epoch=055 loss=1.22909 val_auc=0.76708 best=0.76848@51 elapsed=349.1s
+fold=3 epoch=056 loss=1.23070 val_auc=0.76589 best=0.76848@51 elapsed=355.5s
+fold=3 epoch=057 loss=1.22886 val_auc=0.76536 best=0.76848@51 elapsed=361.9s
+fold=3 epoch=058 loss=1.22297 val_auc=0.76251 best=0.76848@51 elapsed=368.2s
+fold=3 epoch=059 loss=1.22844 val_auc=0.76674 best=0.76848@51 elapsed=374.6s
+fold=3 epoch=060 loss=1.21927 val_auc=0.76512 best=0.76848@51 elapsed=381.0s
+fold=3 epoch=061 loss=1.21851 val_auc=0.76432 best=0.76848@51 elapsed=387.5s
+TEST fold=3: {"auc": 0.7460753103912627, "rmse": 0.4385552112755961, "acc": 0.7105316149818768, "count": 29796, "fold": 3, "seed": 12408, "best_epoch": 51, "best_valid_auc": 0.7684805310683784, "epochs_run": 61, "elapsed_seconds": 387.862, "checkpoint_sha256": "2da14451ab59c35106296bde4aaa990d4a3fc2ff98840e78e626db6d036506fa"}
+fold=4 epoch=001 loss=2.10690 val_auc=0.59348 best=0.59348@1 elapsed=6.4s
+fold=4 epoch=002 loss=1.84553 val_auc=0.60649 best=0.60649@2 elapsed=12.8s
+fold=4 epoch=003 loss=1.74402 val_auc=0.61145 best=0.61145@3 elapsed=19.2s
+fold=4 epoch=004 loss=1.65709 val_auc=0.65172 best=0.65172@4 elapsed=25.6s
+fold=4 epoch=005 loss=1.59837 val_auc=0.66648 best=0.66648@5 elapsed=32.1s
+fold=4 epoch=006 loss=1.56135 val_auc=0.69475 best=0.69475@6 elapsed=38.4s
+fold=4 epoch=007 loss=1.51424 val_auc=0.70246 best=0.70246@7 elapsed=44.0s
+fold=4 epoch=008 loss=1.49487 val_auc=0.71157 best=0.71157@8 elapsed=50.3s
+fold=4 epoch=009 loss=1.47143 val_auc=0.71514 best=0.71514@9 elapsed=56.8s
+fold=4 epoch=010 loss=1.45407 val_auc=0.72160 best=0.72160@10 elapsed=63.1s
+fold=4 epoch=011 loss=1.43216 val_auc=0.72535 best=0.72535@11 elapsed=69.5s
+fold=4 epoch=012 loss=1.42330 val_auc=0.71528 best=0.72535@11 elapsed=75.9s
+fold=4 epoch=013 loss=1.41926 val_auc=0.72695 best=0.72695@13 elapsed=82.4s
+fold=4 epoch=014 loss=1.40074 val_auc=0.73046 best=0.73046@14 elapsed=88.8s
+fold=4 epoch=015 loss=1.39135 val_auc=0.73432 best=0.73432@15 elapsed=95.2s
+fold=4 epoch=016 loss=1.38318 val_auc=0.73712 best=0.73712@16 elapsed=101.6s
+fold=4 epoch=017 loss=1.37504 val_auc=0.73673 best=0.73712@16 elapsed=108.0s
+fold=4 epoch=018 loss=1.36893 val_auc=0.73794 best=0.73794@18 elapsed=114.3s
+fold=4 epoch=019 loss=1.35828 val_auc=0.73856 best=0.73856@19 elapsed=120.7s
+fold=4 epoch=020 loss=1.35465 val_auc=0.73918 best=0.73918@20 elapsed=127.2s
+fold=4 epoch=021 loss=1.35313 val_auc=0.73850 best=0.73918@20 elapsed=133.5s
+fold=4 epoch=022 loss=1.34458 val_auc=0.73950 best=0.73950@22 elapsed=139.9s
+fold=4 epoch=023 loss=1.34390 val_auc=0.73702 best=0.73950@22 elapsed=146.4s
+fold=4 epoch=024 loss=1.34395 val_auc=0.73440 best=0.73950@22 elapsed=152.0s
+fold=4 epoch=025 loss=1.33259 val_auc=0.73837 best=0.73950@22 elapsed=158.4s
+fold=4 epoch=026 loss=1.32653 val_auc=0.74127 best=0.74127@26 elapsed=164.7s
+fold=4 epoch=027 loss=1.31689 val_auc=0.74073 best=0.74127@26 elapsed=171.2s
+fold=4 epoch=028 loss=1.31311 val_auc=0.74312 best=0.74312@28 elapsed=177.6s
+fold=4 epoch=029 loss=1.31088 val_auc=0.74219 best=0.74312@28 elapsed=184.1s
+fold=4 epoch=030 loss=1.30655 val_auc=0.74393 best=0.74393@30 elapsed=190.4s
+fold=4 epoch=031 loss=1.30386 val_auc=0.74195 best=0.74393@30 elapsed=196.8s
+fold=4 epoch=032 loss=1.30705 val_auc=0.74242 best=0.74393@30 elapsed=203.2s
+fold=4 epoch=033 loss=1.29496 val_auc=0.74252 best=0.74393@30 elapsed=209.7s
+fold=4 epoch=034 loss=1.29299 val_auc=0.74283 best=0.74393@30 elapsed=216.0s
+fold=4 epoch=035 loss=1.29018 val_auc=0.74279 best=0.74393@30 elapsed=222.4s
+fold=4 epoch=036 loss=1.28321 val_auc=0.74269 best=0.74393@30 elapsed=228.9s
+fold=4 epoch=037 loss=1.27978 val_auc=0.74273 best=0.74393@30 elapsed=235.2s
+fold=4 epoch=038 loss=1.28156 val_auc=0.74480 best=0.74480@38 elapsed=241.6s
+fold=4 epoch=039 loss=1.27302 val_auc=0.74600 best=0.74600@39 elapsed=247.9s
+fold=4 epoch=040 loss=1.27123 val_auc=0.74400 best=0.74600@39 elapsed=254.0s
+fold=4 epoch=041 loss=1.26983 val_auc=0.74421 best=0.74600@39 elapsed=259.7s
+fold=4 epoch=042 loss=1.26719 val_auc=0.74414 best=0.74600@39 elapsed=266.0s
+fold=4 epoch=043 loss=1.26056 val_auc=0.74317 best=0.74600@39 elapsed=272.5s
+fold=4 epoch=044 loss=1.26197 val_auc=0.74548 best=0.74600@39 elapsed=278.9s
+fold=4 epoch=045 loss=1.25380 val_auc=0.74513 best=0.74600@39 elapsed=285.2s
+fold=4 epoch=046 loss=1.25125 val_auc=0.74440 best=0.74600@39 elapsed=291.6s
+fold=4 epoch=047 loss=1.24850 val_auc=0.74625 best=0.74625@47 elapsed=298.1s
+fold=4 epoch=048 loss=1.24518 val_auc=0.74811 best=0.74811@48 elapsed=304.4s
+fold=4 epoch=049 loss=1.24385 val_auc=0.74384 best=0.74811@48 elapsed=310.8s
+fold=4 epoch=050 loss=1.24112 val_auc=0.74693 best=0.74811@48 elapsed=317.1s
+fold=4 epoch=051 loss=1.23739 val_auc=0.74525 best=0.74811@48 elapsed=323.6s
+fold=4 epoch=052 loss=1.23914 val_auc=0.74363 best=0.74811@48 elapsed=330.0s
+fold=4 epoch=053 loss=1.22999 val_auc=0.74636 best=0.74811@48 elapsed=336.4s
+fold=4 epoch=054 loss=1.22681 val_auc=0.74359 best=0.74811@48 elapsed=342.8s
+fold=4 epoch=055 loss=1.22826 val_auc=0.74519 best=0.74811@48 elapsed=349.2s
+fold=4 epoch=056 loss=1.22066 val_auc=0.74680 best=0.74811@48 elapsed=355.5s
+fold=4 epoch=057 loss=1.21874 val_auc=0.74853 best=0.74853@57 elapsed=361.7s
+fold=4 epoch=058 loss=1.21735 val_auc=0.74645 best=0.74853@57 elapsed=367.5s
+fold=4 epoch=059 loss=1.21171 val_auc=0.74812 best=0.74853@57 elapsed=373.9s
+fold=4 epoch=060 loss=1.20925 val_auc=0.74829 best=0.74853@57 elapsed=380.3s
+fold=4 epoch=061 loss=1.20864 val_auc=0.74712 best=0.74853@57 elapsed=386.7s
+fold=4 epoch=062 loss=1.20740 val_auc=0.74586 best=0.74853@57 elapsed=393.1s
+fold=4 epoch=063 loss=1.20313 val_auc=0.74887 best=0.74887@63 elapsed=399.4s
+fold=4 epoch=064 loss=1.20408 val_auc=0.74511 best=0.74887@63 elapsed=405.8s
+fold=4 epoch=065 loss=1.19830 val_auc=0.74661 best=0.74887@63 elapsed=412.3s
+fold=4 epoch=066 loss=1.19288 val_auc=0.74978 best=0.74978@66 elapsed=418.7s
+fold=4 epoch=067 loss=1.19988 val_auc=0.74547 best=0.74978@66 elapsed=425.0s
+fold=4 epoch=068 loss=1.19251 val_auc=0.74826 best=0.74978@66 elapsed=431.5s
+fold=4 epoch=069 loss=1.18743 val_auc=0.74931 best=0.74978@66 elapsed=437.9s
+fold=4 epoch=070 loss=1.18479 val_auc=0.74721 best=0.74978@66 elapsed=444.2s
+fold=4 epoch=071 loss=1.18341 val_auc=0.74983 best=0.74983@71 elapsed=450.6s
+fold=4 epoch=072 loss=1.17851 val_auc=0.74675 best=0.74983@71 elapsed=457.1s
+fold=4 epoch=073 loss=1.17901 val_auc=0.74734 best=0.74983@71 elapsed=463.4s
+fold=4 epoch=074 loss=1.17591 val_auc=0.74797 best=0.74983@71 elapsed=469.2s
+fold=4 epoch=075 loss=1.17199 val_auc=0.74997 best=0.74997@75 elapsed=475.2s
+fold=4 epoch=076 loss=1.16974 val_auc=0.74646 best=0.74997@75 elapsed=481.6s
+fold=4 epoch=077 loss=1.16730 val_auc=0.74903 best=0.74997@75 elapsed=488.0s
+fold=4 epoch=078 loss=1.16487 val_auc=0.74795 best=0.74997@75 elapsed=494.4s
+fold=4 epoch=079 loss=1.16006 val_auc=0.74893 best=0.74997@75 elapsed=500.9s
+fold=4 epoch=080 loss=1.15946 val_auc=0.74929 best=0.74997@75 elapsed=507.3s
+fold=4 epoch=081 loss=1.15698 val_auc=0.75043 best=0.75043@81 elapsed=513.7s
+fold=4 epoch=082 loss=1.15780 val_auc=0.74857 best=0.75043@81 elapsed=520.1s
+fold=4 epoch=083 loss=1.15146 val_auc=0.74899 best=0.75043@81 elapsed=526.4s
+fold=4 epoch=084 loss=1.14980 val_auc=0.75015 best=0.75043@81 elapsed=532.9s
+fold=4 epoch=085 loss=1.15155 val_auc=0.74919 best=0.75043@81 elapsed=539.2s
+fold=4 epoch=086 loss=1.14605 val_auc=0.74608 best=0.75043@81 elapsed=545.8s
+fold=4 epoch=087 loss=1.14522 val_auc=0.74915 best=0.75043@81 elapsed=552.2s
+fold=4 epoch=088 loss=1.14383 val_auc=0.74873 best=0.75043@81 elapsed=558.5s
+fold=4 epoch=089 loss=1.13984 val_auc=0.74899 best=0.75043@81 elapsed=564.9s
+fold=4 epoch=090 loss=1.14188 val_auc=0.75049 best=0.75049@90 elapsed=571.4s
+fold=4 epoch=091 loss=1.13770 val_auc=0.74900 best=0.75049@90 elapsed=576.9s
+fold=4 epoch=092 loss=1.13604 val_auc=0.74942 best=0.75049@90 elapsed=583.3s
+fold=4 epoch=093 loss=1.13329 val_auc=0.74695 best=0.75049@90 elapsed=589.8s
+fold=4 epoch=094 loss=1.13600 val_auc=0.74773 best=0.75049@90 elapsed=596.2s
+fold=4 epoch=095 loss=1.13289 val_auc=0.74994 best=0.75049@90 elapsed=602.5s
+fold=4 epoch=096 loss=1.13039 val_auc=0.74707 best=0.75049@90 elapsed=608.9s
+fold=4 epoch=097 loss=1.13159 val_auc=0.74748 best=0.75049@90 elapsed=615.4s
+fold=4 epoch=098 loss=1.12566 val_auc=0.74724 best=0.75049@90 elapsed=621.7s
+fold=4 epoch=099 loss=1.12292 val_auc=0.74836 best=0.75049@90 elapsed=628.1s
+fold=4 epoch=100 loss=1.12115 val_auc=0.74871 best=0.75049@90 elapsed=634.4s
+TEST fold=4: {"auc": 0.7658249793352192, "rmse": 0.4314625057526479, "acc": 0.7226188958306771, "count": 31372, "fold": 4, "seed": 12409, "best_epoch": 90, "best_valid_auc": 0.7504861933499183, "epochs_run": 100, "elapsed_seconds": 634.89, "checkpoint_sha256": "4fdfb95a813166891ccfb6e659921b4487055ae9ec600bcebf74e75090191c96"}
+{
+  "complete": true,
+  "completed_folds": 5,
+  "folds": [
+    {
+      "auc": 0.7641881035861489,
+      "rmse": 0.43137161364534693,
+      "acc": 0.7206817782463539,
+      "count": 28455,
+      "fold": 0,
+      "seed": 12405,
+      "best_epoch": 68,
+      "best_valid_auc": 0.7600665989030768,
+      "epochs_run": 78,
+      "elapsed_seconds": 496.767,
+      "checkpoint_sha256": "0136bffe2c4977ff21130ef1bc14ef3b48e3683c12867dc93c8f8ba78c3d8661"
+    },
+    {
+      "auc": 0.7634794539081615,
+      "rmse": 0.43147284928012425,
+      "acc": 0.7223107293759091,
+      "count": 28874,
+      "fold": 1,
+      "seed": 12406,
+      "best_epoch": 48,
+      "best_valid_auc": 0.7593965797830695,
+      "epochs_run": 58,
+      "elapsed_seconds": 368.872,
+      "checkpoint_sha256": "58507417b8faf6db01cc7a5536a3247cd2c76aeca5eb3942e34b8adafb739dc1"
+    },
+    {
+      "auc": 0.7593734452043267,
+      "rmse": 0.4312868696844056,
+      "acc": 0.7243949661181026,
+      "count": 30990,
+      "fold": 2,
+      "seed": 12407,
+      "best_epoch": 67,
+      "best_valid_auc": 0.7716210420625631,
+      "epochs_run": 77,
+      "elapsed_seconds": 489.614,
+      "checkpoint_sha256": "62986da3ca420f57d6dec8825d6dfd55ea2c58e5dfcc9d62e8c8d9f7e274e809"
+    },
+    {
+      "auc": 0.7460753103912627,
+      "rmse": 0.4385552112755961,
+      "acc": 0.7105316149818768,
+      "count": 29796,
+      "fold": 3,
+      "seed": 12408,
+      "best_epoch": 51,
+      "best_valid_auc": 0.7684805310683784,
+      "epochs_run": 61,
+      "elapsed_seconds": 387.862,
+      "checkpoint_sha256": "2da14451ab59c35106296bde4aaa990d4a3fc2ff98840e78e626db6d036506fa"
+    },
+    {
+      "auc": 0.7658249793352192,
+      "rmse": 0.4314625057526479,
+      "acc": 0.7226188958306771,
+      "count": 31372,
+      "fold": 4,
+      "seed": 12409,
+      "best_epoch": 90,
+      "best_valid_auc": 0.7504861933499183,
+      "epochs_run": 100,
+      "elapsed_seconds": 634.89,
+      "checkpoint_sha256": "4fdfb95a813166891ccfb6e659921b4487055ae9ec600bcebf74e75090191c96"
+    }
+  ],
+  "paper": {
+    "auc": 0.7624,
+    "rmse": 0.4333
+  },
+  "mean": {
+    "auc": 0.7597882584850237,
+    "rmse": 0.43282980992762415,
+    "acc": 0.7201075969105839
+  },
+  "std_population": {
+    "auc": 0.007178336501849141,
+    "rmse": 0.002863497319465144,
+    "acc": 0.004930944407569055
+  }
+}

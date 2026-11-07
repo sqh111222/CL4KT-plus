@@ -1,0 +1,167 @@
+{
+  "created_at": "2026-11-05T10:06:24.638743+08:00",
+  "physical_gpu": 7,
+  "activation_checkpointing": true,
+  "datasets": [
+    "spanish",
+    "statics",
+    "algebra05",
+    "bridge_algebra06",
+    "sampled_slepemapy"
+  ],
+  "runs": {
+    "spanish": {
+      "status": "complete",
+      "started_at": "2026-11-05T10:06:28.505018+08:00",
+      "command": [
+        "/data/sqh/CL4KT/.venv/bin/python",
+        "-u",
+        "scripts/train_gpu7.py",
+        "--config",
+        "configs/spanish.yaml",
+        "--device",
+        "cuda:0",
+        "--output-dir",
+        "/data/sqh/CL4KT/results/gpu7/spanish-fivefold"
+      ],
+      "run_directory": "/data/sqh/CL4KT/results/gpu7/spanish-fivefold",
+      "log": "/data/sqh/CL4KT/results/gpu7/spanish-fivefold.log",
+      "physical_gpu": 7,
+      "return_code": 0,
+      "finished_at": "2026-11-05T10:08:21.920222+08:00",
+      "metrics": {
+        "auc": 0.8227741309760512,
+        "rmse": 0.40870357398357016,
+        "acc": 0.7563290563290563
+      },
+      "std_population": {
+        "auc": 0.008274383762013974,
+        "rmse": 0.0069220924997206446,
+        "acc": 0.009206525174637723
+      }
+    },
+    "statics": {
+      "status": "complete",
+      "started_at": "2026-11-05T10:08:25.467079+08:00",
+      "command": [
+        "/data/sqh/CL4KT/.venv/bin/python",
+        "-u",
+        "scripts/train_gpu7.py",
+        "--config",
+        "configs/statics.yaml",
+        "--device",
+        "cuda:0",
+        "--output-dir",
+        "/data/sqh/CL4KT/results/gpu7/statics-fivefold"
+      ],
+      "run_directory": "/data/sqh/CL4KT/results/gpu7/statics-fivefold",
+      "log": "/data/sqh/CL4KT/results/gpu7/statics-fivefold.log",
+      "physical_gpu": 7,
+      "return_code": 0,
+      "finished_at": "2026-11-05T10:12:57.820787+08:00",
+      "metrics": {
+        "auc": 0.7936854048350849,
+        "rmse": 0.3949049113331003,
+        "acc": 0.7745825177723503
+      },
+      "std_population": {
+        "auc": 0.006129272614993458,
+        "rmse": 0.005382053110171349,
+        "acc": 0.010539729659176671
+      }
+    },
+    "algebra05": {
+      "status": "complete",
+      "started_at": "2026-11-05T10:13:01.972834+08:00",
+      "command": [
+        "/data/sqh/CL4KT/.venv/bin/python",
+        "-u",
+        "scripts/train_gpu7.py",
+        "--config",
+        "configs/algebra05.yaml",
+        "--device",
+        "cuda:0",
+        "--output-dir",
+        "/data/sqh/CL4KT/results/gpu7/algebra05-fivefold"
+      ],
+      "run_directory": "/data/sqh/CL4KT/results/gpu7/algebra05-fivefold",
+      "log": "/data/sqh/CL4KT/results/gpu7/algebra05-fivefold.log",
+      "physical_gpu": 7,
+      "return_code": 0,
+      "finished_at": "2026-11-05T10:20:49.243134+08:00",
+      "metrics": {
+        "auc": 0.7878388746596372,
+        "rmse": 0.38262295603306795,
+        "acc": 0.7951497546616293
+      },
+      "std_population": {
+        "auc": 0.006907836215067435,
+        "rmse": 0.0036560017108945844,
+        "acc": 0.005705706664580666
+      }
+    },
+    "bridge_algebra06": {
+      "status": "complete",
+      "started_at": "2026-11-05T10:20:54.248622+08:00",
+      "command": [
+        "/data/sqh/CL4KT/.venv/bin/python",
+        "-u",
+        "scripts/train_gpu7.py",
+        "--config",
+        "configs/bridge_algebra06.yaml",
+        "--device",
+        "cuda:0",
+        "--output-dir",
+        "/data/sqh/CL4KT/results/gpu7/bridge_algebra06-fivefold"
+      ],
+      "run_directory": "/data/sqh/CL4KT/results/gpu7/bridge_algebra06-fivefold",
+      "log": "/data/sqh/CL4KT/results/gpu7/bridge_algebra06-fivefold.log",
+      "physical_gpu": 7,
+      "return_code": 0,
+      "finished_at": "2026-11-05T10:35:57.693514+08:00",
+      "metrics": {
+        "auc": 0.7704401188583259,
+        "rmse": 0.3803678717927488,
+        "acc": 0.7976715244964356
+      },
+      "std_population": {
+        "auc": 0.003771162420562092,
+        "rmse": 0.003271139138469114,
+        "acc": 0.004958441240006195
+      }
+    },
+    "sampled_slepemapy": {
+      "status": "complete",
+      "started_at": "2026-11-05T10:36:03.123061+08:00",
+      "command": [
+        "/data/sqh/CL4KT/.venv/bin/python",
+        "-u",
+        "scripts/train_gpu7.py",
+        "--config",
+        "configs/sampled_slepemapy.yaml",
+        "--device",
+        "cuda:0",
+        "--output-dir",
+        "/data/sqh/CL4KT/results/gpu7/sampled_slepemapy-fivefold"
+      ],
+      "run_directory": "/data/sqh/CL4KT/results/gpu7/sampled_slepemapy-fivefold",
+      "log": "/data/sqh/CL4KT/results/gpu7/sampled_slepemapy-fivefold.log",
+      "physical_gpu": 7,
+      "return_code": 0,
+      "finished_at": "2026-11-05T11:12:28.393751+08:00",
+      "metrics": {
+        "auc": 0.7095788018527517,
+        "rmse": 0.3949249406113606,
+        "acc": 0.7861066449069166
+      },
+      "std_population": {
+        "auc": 0.0064063532505630304,
+        "rmse": 0.0029339188976853455,
+        "acc": 0.005318628390552181
+      }
+    }
+  },
+  "scope": "Five CL4KT student-level five-fold experiments",
+  "updated_at": "2026-11-05T11:12:28.438336+08:00",
+  "complete": true
+}

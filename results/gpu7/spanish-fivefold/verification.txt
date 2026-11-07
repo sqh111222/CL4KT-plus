@@ -1,0 +1,7 @@
+PASS GPU7 runtime: frozen launcher, PCI/UUID binding, FP32/batch512, RNG-preserving checkpointing; peak allocated=767795200 bytes, reserved=989855744 bytes
+PASS fold 0: students=37, predictions=3663, best_epoch=43, auc=0.827912, rmse=0.408784
+PASS fold 1: students=37, predictions=3663, best_epoch=57, auc=0.830841, rmse=0.405034
+PASS fold 2: students=36, predictions=3564, best_epoch=45, auc=0.824459, rmse=0.400807
+PASS fold 3: students=36, predictions=3564, best_epoch=29, auc=0.807048, rmse=0.421439
+PASS fold 4: students=36, predictions=3564, best_epoch=37, auc=0.823610, rmse=0.407454
+PASS five-fold coverage, split isolation, prediction metrics, validation selection, checkpoint hashes, summary statistics, dataset and source hashes

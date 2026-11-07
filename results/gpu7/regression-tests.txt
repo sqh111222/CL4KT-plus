@@ -1,0 +1,43 @@
+test_current_source_drift_is_reported_without_invalidating_snapshot (test_artifacts.ArtifactTests.test_current_source_drift_is_reported_without_invalidating_snapshot) ... ok
+test_frozen_snapshot_corruption_is_always_rejected (test_artifacts.ArtifactTests.test_frozen_snapshot_corruption_is_always_rejected) ... ok
+test_invalid_gpu7_runtime_constraints_are_rejected (test_artifacts.ArtifactTests.test_invalid_gpu7_runtime_constraints_are_rejected) ... ok
+test_runtime_launcher_drift_and_snapshot_corruption (test_artifacts.ArtifactTests.test_runtime_launcher_drift_and_snapshot_corruption) ... ok
+test_table_two_dataset_aliases_and_missing_summary_reference (test_artifacts.ArtifactTests.test_table_two_dataset_aliases_and_missing_summary_reference) ... ok
+test_valid_gpu7_runtime_metadata_and_historical_compatibility (test_artifacts.ArtifactTests.test_valid_gpu7_runtime_metadata_and_historical_compatibility) ... ok
+test_wrong_or_unknown_paper_reference_is_rejected (test_artifacts.ArtifactTests.test_wrong_or_unknown_paper_reference_is_rejected) ... ok
+test_cuda_dropout_and_device_rng_are_exactly_preserved (test_checkpointing.CheckpointingTests.test_cuda_dropout_and_device_rng_are_exactly_preserved) ... skipped 'Set CL4KT_TEST_DEVICE=cuda:0 to opt in on physical GPU7'
+test_forward_loss_all_gradients_and_rng_are_exactly_preserved (test_checkpointing.CheckpointingTests.test_forward_loss_all_gradients_and_rng_are_exactly_preserved) ... {
+  "passed": true,
+  "device": "cpu",
+  "model_seed": 31,
+  "forward_seed": 919,
+  "batch_size": 2,
+  "hidden_size": 16,
+  "num_blocks": 2,
+  "dropout": 0.2,
+  "torch": "2.6.0+cu124",
+  "precision": "float32",
+  "prediction_max_abs_diff": 0.0,
+  "contrastive_loss_abs_diff": 0.0,
+  "total_loss_abs_diff": 0.0,
+  "gradient_max_abs_diff": 0.0,
+  "parameter_tensors_compared": 98,
+  "parameter_gradients_compared": 98,
+  "cpu_rng_exact": true,
+  "cuda_rng_exact": null
+}
+ok
+test_augmentation_boundaries_and_padding (test_data.DataTests.test_augmentation_boundaries_and_padding) ... ok
+test_augmentation_does_not_reset_global_rng (test_data.DataTests.test_augmentation_does_not_reset_global_rng) ... ok
+test_recent_history_and_student_splits (test_data.DataTests.test_recent_history_and_student_splits) ... ok
+test_cpu_training_loss_and_backward_are_finite (test_model.ModelTests.test_cpu_training_loss_and_backward_are_finite) ... ok
+test_fully_masked_attention_rows_are_zero (test_model.ModelTests.test_fully_masked_attention_rows_are_zero) ... ok
+test_mask_and_real_skill_response_embeddings_do_not_collide (test_model.ModelTests.test_mask_and_real_skill_response_embeddings_do_not_collide) ... ok
+test_predictions_do_not_see_current_or_future_responses (test_model.ModelTests.test_predictions_do_not_see_current_or_future_responses) ... ok
+test_single_student_evaluation_preserves_batch_dimension (test_model.ModelTests.test_single_student_evaluation_preserves_batch_dimension) ... ok
+test_optimized_default_5000_matches_original_seeded_preparation (test_slepemapy_preparation.SlepemapyPreparationTests.test_optimized_default_5000_matches_original_seeded_preparation) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 8.857s
+
+OK (skipped=1)

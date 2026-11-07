@@ -1,0 +1,164 @@
+Run directory: /data/sqh/CL4KT/results/statics-fivefold
+Device: cuda:0; folds: [0, 1, 2, 3, 4]
+fold=0 epoch=001 loss=1.84203 val_auc=0.51264 best=0.51264@1 elapsed=0.9s
+fold=0 epoch=002 loss=1.72131 val_auc=0.53458 best=0.53458@2 elapsed=1.3s
+fold=0 epoch=003 loss=1.65787 val_auc=0.56241 best=0.56241@3 elapsed=1.7s
+fold=0 epoch=004 loss=1.65219 val_auc=0.59185 best=0.59185@4 elapsed=2.1s
+fold=0 epoch=005 loss=1.63756 val_auc=0.61008 best=0.61008@5 elapsed=2.5s
+fold=0 epoch=006 loss=1.62102 val_auc=0.62083 best=0.62083@6 elapsed=2.9s
+fold=0 epoch=007 loss=1.61585 val_auc=0.62765 best=0.62765@7 elapsed=3.2s
+fold=0 epoch=008 loss=1.61323 val_auc=0.63246 best=0.63246@8 elapsed=3.7s
+fold=0 epoch=009 loss=1.59976 val_auc=0.63503 best=0.63503@9 elapsed=4.2s
+fold=0 epoch=010 loss=1.58686 val_auc=0.63793 best=0.63793@10 elapsed=4.5s
+fold=0 epoch=011 loss=1.58299 val_auc=0.64219 best=0.64219@11 elapsed=5.0s
+fold=0 epoch=012 loss=1.57344 val_auc=0.64768 best=0.64768@12 elapsed=5.6s
+fold=0 epoch=013 loss=1.55817 val_auc=0.65317 best=0.65317@13 elapsed=6.3s
+fold=0 epoch=014 loss=1.54606 val_auc=0.65882 best=0.65882@14 elapsed=6.9s
+fold=0 epoch=015 loss=1.53393 val_auc=0.66424 best=0.66424@15 elapsed=7.6s
+fold=0 epoch=016 loss=1.51769 val_auc=0.67016 best=0.67016@16 elapsed=8.3s
+fold=0 epoch=017 loss=1.50341 val_auc=0.67617 best=0.67617@17 elapsed=9.0s
+fold=0 epoch=018 loss=1.48841 val_auc=0.68457 best=0.68457@18 elapsed=9.6s
+fold=0 epoch=019 loss=1.47634 val_auc=0.69445 best=0.69445@19 elapsed=10.3s
+fold=0 epoch=020 loss=1.45890 val_auc=0.70285 best=0.70285@20 elapsed=11.0s
+fold=0 epoch=021 loss=1.44353 val_auc=0.71369 best=0.71369@21 elapsed=11.4s
+fold=0 epoch=022 loss=1.42693 val_auc=0.72590 best=0.72590@22 elapsed=12.1s
+fold=0 epoch=023 loss=1.40935 val_auc=0.73579 best=0.73579@23 elapsed=12.5s
+fold=0 epoch=024 loss=1.39162 val_auc=0.74085 best=0.74085@24 elapsed=13.1s
+fold=0 epoch=025 loss=1.37675 val_auc=0.74739 best=0.74739@25 elapsed=13.8s
+fold=0 epoch=026 loss=1.35962 val_auc=0.75306 best=0.75306@26 elapsed=14.5s
+fold=0 epoch=027 loss=1.34235 val_auc=0.75867 best=0.75867@27 elapsed=15.2s
+fold=0 epoch=028 loss=1.32520 val_auc=0.76360 best=0.76360@28 elapsed=15.9s
+fold=0 epoch=029 loss=1.31043 val_auc=0.76691 best=0.76691@29 elapsed=16.6s
+fold=0 epoch=030 loss=1.29185 val_auc=0.77095 best=0.77095@30 elapsed=17.3s
+fold=0 epoch=031 loss=1.27675 val_auc=0.77420 best=0.77420@31 elapsed=18.1s
+fold=0 epoch=032 loss=1.25668 val_auc=0.77439 best=0.77439@32 elapsed=18.8s
+fold=0 epoch=033 loss=1.24212 val_auc=0.77754 best=0.77754@33 elapsed=19.5s
+fold=0 epoch=034 loss=1.22242 val_auc=0.77925 best=0.77925@34 elapsed=20.2s
+fold=0 epoch=035 loss=1.20247 val_auc=0.78112 best=0.78112@35 elapsed=20.9s
+fold=0 epoch=036 loss=1.18482 val_auc=0.78425 best=0.78425@36 elapsed=21.6s
+fold=0 epoch=037 loss=1.16860 val_auc=0.78613 best=0.78613@37 elapsed=22.3s
+fold=0 epoch=038 loss=1.14928 val_auc=0.78693 best=0.78693@38 elapsed=23.0s
+fold=0 epoch=039 loss=1.12888 val_auc=0.78873 best=0.78873@39 elapsed=23.7s
+fold=0 epoch=040 loss=1.10854 val_auc=0.78920 best=0.78920@40 elapsed=24.4s
+fold=0 epoch=041 loss=1.09374 val_auc=0.78913 best=0.78920@40 elapsed=25.1s
+fold=0 epoch=042 loss=1.07897 val_auc=0.79074 best=0.79074@42 elapsed=25.8s
+fold=0 epoch=043 loss=1.05144 val_auc=0.79238 best=0.79238@43 elapsed=26.6s
+fold=0 epoch=044 loss=1.03513 val_auc=0.79405 best=0.79405@44 elapsed=27.4s
+fold=0 epoch=045 loss=1.01284 val_auc=0.79531 best=0.79531@45 elapsed=28.1s
+fold=0 epoch=046 loss=0.99616 val_auc=0.79595 best=0.79595@46 elapsed=28.7s
+fold=0 epoch=047 loss=0.97706 val_auc=0.79570 best=0.79595@46 elapsed=29.4s
+fold=0 epoch=048 loss=0.95870 val_auc=0.79637 best=0.79637@48 elapsed=30.1s
+fold=0 epoch=049 loss=0.93629 val_auc=0.79708 best=0.79708@49 elapsed=31.0s
+fold=0 epoch=050 loss=0.91455 val_auc=0.79745 best=0.79745@50 elapsed=31.7s
+fold=0 epoch=051 loss=0.89246 val_auc=0.79850 best=0.79850@51 elapsed=32.4s
+fold=0 epoch=052 loss=0.87621 val_auc=0.79919 best=0.79919@52 elapsed=33.1s
+fold=0 epoch=053 loss=0.85330 val_auc=0.79960 best=0.79960@53 elapsed=33.9s
+fold=0 epoch=054 loss=0.83452 val_auc=0.80087 best=0.80087@54 elapsed=34.5s
+fold=0 epoch=055 loss=0.81506 val_auc=0.80161 best=0.80161@55 elapsed=35.2s
+fold=0 epoch=056 loss=0.79090 val_auc=0.80256 best=0.80256@56 elapsed=35.9s
+fold=0 epoch=057 loss=0.78475 val_auc=0.80335 best=0.80335@57 elapsed=36.6s
+fold=0 epoch=058 loss=0.75688 val_auc=0.80371 best=0.80371@58 elapsed=37.3s
+fold=0 epoch=059 loss=0.73809 val_auc=0.80438 best=0.80438@59 elapsed=38.0s
+fold=0 epoch=060 loss=0.72360 val_auc=0.80459 best=0.80459@60 elapsed=38.8s
+fold=0 epoch=061 loss=0.71117 val_auc=0.80446 best=0.80459@60 elapsed=39.5s
+fold=0 epoch=062 loss=0.69426 val_auc=0.80484 best=0.80484@62 elapsed=40.2s
+fold=0 epoch=063 loss=0.66825 val_auc=0.80482 best=0.80484@62 elapsed=40.9s
+fold=0 epoch=064 loss=0.66358 val_auc=0.80490 best=0.80490@64 elapsed=41.7s
+fold=0 epoch=065 loss=0.65341 val_auc=0.80576 best=0.80576@65 elapsed=42.4s
+fold=0 epoch=066 loss=0.64000 val_auc=0.80598 best=0.80598@66 elapsed=43.1s
+fold=0 epoch=067 loss=0.61939 val_auc=0.80690 best=0.80690@67 elapsed=43.7s
+fold=0 epoch=068 loss=0.60432 val_auc=0.80716 best=0.80716@68 elapsed=44.4s
+fold=0 epoch=069 loss=0.60033 val_auc=0.80734 best=0.80734@69 elapsed=45.1s
+fold=0 epoch=070 loss=0.58541 val_auc=0.80802 best=0.80802@70 elapsed=45.8s
+fold=0 epoch=071 loss=0.57822 val_auc=0.80889 best=0.80889@71 elapsed=46.5s
+fold=0 epoch=072 loss=0.56325 val_auc=0.80968 best=0.80968@72 elapsed=47.2s
+fold=0 epoch=073 loss=0.55153 val_auc=0.81045 best=0.81045@73 elapsed=47.9s
+fold=0 epoch=074 loss=0.54767 val_auc=0.81056 best=0.81056@74 elapsed=48.6s
+fold=0 epoch=075 loss=0.53692 val_auc=0.81115 best=0.81115@75 elapsed=49.4s
+fold=0 epoch=076 loss=0.52129 val_auc=0.81136 best=0.81136@76 elapsed=50.1s
+fold=0 epoch=077 loss=0.51667 val_auc=0.81098 best=0.81136@76 elapsed=50.8s
+fold=0 epoch=078 loss=0.51310 val_auc=0.81086 best=0.81136@76 elapsed=51.4s
+fold=0 epoch=079 loss=0.50161 val_auc=0.81027 best=0.81136@76 elapsed=52.1s
+fold=0 epoch=080 loss=0.49451 val_auc=0.81032 best=0.81136@76 elapsed=52.8s
+fold=0 epoch=081 loss=0.48492 val_auc=0.81051 best=0.81136@76 elapsed=53.5s
+fold=0 epoch=082 loss=0.48003 val_auc=0.81016 best=0.81136@76 elapsed=54.2s
+fold=0 epoch=083 loss=0.47269 val_auc=0.81008 best=0.81136@76 elapsed=54.9s
+fold=0 epoch=084 loss=0.46695 val_auc=0.80968 best=0.81136@76 elapsed=55.6s
+fold=0 epoch=085 loss=0.46231 val_auc=0.80861 best=0.81136@76 elapsed=56.3s
+fold=0 epoch=086 loss=0.46392 val_auc=0.80779 best=0.81136@76 elapsed=57.0s
+TEST fold=0: {"auc": 0.7962934545707814, "rmse": 0.3921149638906907, "acc": 0.7819536423841059, "count": 6040, "fold": 0, "seed": 12405, "best_epoch": 76, "best_valid_auc": 0.8113621679145605, "epochs_run": 86, "elapsed_seconds": 57.183, "checkpoint_sha256": "0063ca135470a9c5be43bbe604e119c11344d2b6de8b2ba433ee0671db870d89"}
+fold=1 epoch=001 loss=1.83900 val_auc=0.54189 best=0.54189@1 elapsed=0.7s
+fold=1 epoch=002 loss=1.72023 val_auc=0.55423 best=0.55423@2 elapsed=1.5s
+fold=1 epoch=003 loss=1.65472 val_auc=0.57324 best=0.57324@3 elapsed=2.2s
+fold=1 epoch=004 loss=1.64931 val_auc=0.58979 best=0.58979@4 elapsed=2.9s
+fold=1 epoch=005 loss=1.62692 val_auc=0.59785 best=0.59785@5 elapsed=3.6s
+fold=1 epoch=006 loss=1.60264 val_auc=0.60330 best=0.60330@6 elapsed=4.4s
+fold=1 epoch=007 loss=1.59686 val_auc=0.60827 best=0.60827@7 elapsed=5.1s
+fold=1 epoch=008 loss=1.58829 val_auc=0.61191 best=0.61191@8 elapsed=5.8s
+fold=1 epoch=009 loss=1.56940 val_auc=0.61481 best=0.61481@9 elapsed=6.5s
+fold=1 epoch=010 loss=1.55701 val_auc=0.61747 best=0.61747@10 elapsed=7.2s
+fold=1 epoch=011 loss=1.54856 val_auc=0.62139 best=0.62139@11 elapsed=7.9s
+fold=1 epoch=012 loss=1.53677 val_auc=0.62608 best=0.62608@12 elapsed=8.7s
+fold=1 epoch=013 loss=1.51817 val_auc=0.63139 best=0.63139@13 elapsed=9.4s
+fold=1 epoch=014 loss=1.50295 val_auc=0.63682 best=0.63682@14 elapsed=10.1s
+fold=1 epoch=015 loss=1.48517 val_auc=0.64206 best=0.64206@15 elapsed=10.8s
+fold=1 epoch=016 loss=1.46768 val_auc=0.64679 best=0.64679@16 elapsed=11.5s
+fold=1 epoch=017 loss=1.44772 val_auc=0.65098 best=0.65098@17 elapsed=12.2s
+fold=1 epoch=018 loss=1.42883 val_auc=0.65624 best=0.65624@18 elapsed=12.9s
+fold=1 epoch=019 loss=1.41650 val_auc=0.66427 best=0.66427@19 elapsed=13.7s
+fold=1 epoch=020 loss=1.39603 val_auc=0.67418 best=0.67418@20 elapsed=14.4s
+fold=1 epoch=021 loss=1.37452 val_auc=0.68493 best=0.68493@21 elapsed=15.1s
+fold=1 epoch=022 loss=1.35915 val_auc=0.69526 best=0.69526@22 elapsed=15.8s
+fold=1 epoch=023 loss=1.33912 val_auc=0.70349 best=0.70349@23 elapsed=16.5s
+fold=1 epoch=024 loss=1.31787 val_auc=0.71247 best=0.71247@24 elapsed=17.2s
+fold=1 epoch=025 loss=1.29683 val_auc=0.72004 best=0.72004@25 elapsed=18.0s
+fold=1 epoch=026 loss=1.27095 val_auc=0.72548 best=0.72548@26 elapsed=18.7s
+fold=1 epoch=027 loss=1.24953 val_auc=0.72860 best=0.72860@27 elapsed=19.3s
+fold=1 epoch=028 loss=1.23296 val_auc=0.73354 best=0.73354@28 elapsed=20.1s
+fold=1 epoch=029 loss=1.21076 val_auc=0.73672 best=0.73672@29 elapsed=20.8s
+fold=1 epoch=030 loss=1.19097 val_auc=0.73897 best=0.73897@30 elapsed=21.5s
+fold=1 epoch=031 loss=1.16547 val_auc=0.74138 best=0.74138@31 elapsed=22.1s
+fold=1 epoch=032 loss=1.14171 val_auc=0.74435 best=0.74435@32 elapsed=23.0s
+fold=1 epoch=033 loss=1.12224 val_auc=0.74866 best=0.74866@33 elapsed=23.7s
+fold=1 epoch=034 loss=1.10180 val_auc=0.75236 best=0.75236@34 elapsed=24.4s
+fold=1 epoch=035 loss=1.07810 val_auc=0.75568 best=0.75568@35 elapsed=25.1s
+fold=1 epoch=036 loss=1.05658 val_auc=0.75941 best=0.75941@36 elapsed=25.9s
+Traceback (most recent call last):
+  File "/data/sqh/CL4KT/main.py", line 281, in <module>
+    main()
+  File "/data/sqh/CL4KT/main.py", line 269, in main
+    run_fold(df, splits[fold], config, output_dir, device, num_skills, num_questions)
+  File "/data/sqh/CL4KT/main.py", line 157, in run_fold
+    output = model(batch)
+             ^^^^^^^^^^^^
+  File "/data/sqh/anaconda3/envs/KT/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/sqh/anaconda3/envs/KT/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/sqh/CL4KT/models/cl4kt.py", line 135, in forward
+    ques_j_score, _ = block(
+                      ^^^^^^
+  File "/data/sqh/anaconda3/envs/KT/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/sqh/anaconda3/envs/KT/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/sqh/CL4KT/models/modules.py", line 107, in forward
+    query2, attn = self.masked_attn_head(query, key, values, mask=bert_mask)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/sqh/anaconda3/envs/KT/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/sqh/anaconda3/envs/KT/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/sqh/CL4KT/models/modules.py", line 273, in forward
+    scores, attn_scores = individual_attention(
+                          ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/sqh/CL4KT/models/modules.py", line 380, in individual_attention
+    position_effect = position_effect.to(device)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

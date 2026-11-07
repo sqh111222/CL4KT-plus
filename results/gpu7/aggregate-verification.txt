@@ -1,0 +1,45 @@
+PASS GPU7 runtime: frozen launcher, PCI/UUID binding, FP32/batch512, RNG-preserving checkpointing; peak allocated=2414686208 bytes, reserved=2770337792 bytes
+PASS fold 0: students=115, predictions=10736, best_epoch=105, auc=0.790737, rmse=0.384843
+PASS fold 1: students=114, predictions=10572, best_epoch=75, auc=0.795206, rmse=0.375956
+PASS fold 2: students=114, predictions=10680, best_epoch=76, auc=0.779088, rmse=0.386382
+PASS fold 3: students=114, predictions=10207, best_epoch=66, auc=0.780074, rmse=0.381722
+PASS fold 4: students=114, predictions=10334, best_epoch=89, auc=0.794089, rmse=0.384212
+PASS five-fold coverage, split isolation, prediction metrics, validation selection, checkpoint hashes, summary statistics, dataset and source hashes
+PASS GPU7 runtime: frozen launcher, PCI/UUID binding, FP32/batch512, RNG-preserving checkpointing; peak allocated=3065760768 bytes, reserved=3659530240 bytes
+PASS fold 0: students=228, predictions=21541, best_epoch=103, auc=0.769681, rmse=0.380793
+PASS fold 1: students=228, predictions=22100, best_epoch=88, auc=0.773723, rmse=0.382263
+PASS fold 2: students=228, predictions=22332, best_epoch=66, auc=0.768800, rmse=0.380475
+PASS fold 3: students=227, predictions=22095, best_epoch=89, auc=0.775322, rmse=0.374318
+PASS fold 4: students=227, predictions=21848, best_epoch=69, auc=0.764675, rmse=0.383990
+PASS five-fold coverage, split isolation, prediction metrics, validation selection, checkpoint hashes, summary statistics, dataset and source hashes
+PASS fold 0: students=739, predictions=28455, best_epoch=68, auc=0.764188, rmse=0.431372
+PASS fold 1: students=739, predictions=28874, best_epoch=48, auc=0.763479, rmse=0.431473
+PASS fold 2: students=739, predictions=30990, best_epoch=67, auc=0.759373, rmse=0.431287
+PASS fold 3: students=739, predictions=29796, best_epoch=51, auc=0.746075, rmse=0.438555
+PASS fold 4: students=739, predictions=31372, best_epoch=90, auc=0.765825, rmse=0.431463
+PASS five-fold coverage, split isolation, prediction metrics, validation selection, checkpoint hashes, summary statistics, dataset and source hashes
+PASS GPU7 runtime: frozen launcher, PCI/UUID binding, FP32/batch512, RNG-preserving checkpointing; peak allocated=3066911232 bytes, reserved=3596615680 bytes
+PASS fold 0: students=1000, predictions=54248, best_epoch=23, auc=0.699853, rmse=0.398272
+PASS fold 1: students=1000, predictions=55273, best_epoch=44, auc=0.707475, rmse=0.394612
+PASS fold 2: students=1000, predictions=53533, best_epoch=82, auc=0.719671, rmse=0.390809
+PASS fold 3: students=1000, predictions=55754, best_epoch=69, auc=0.711637, rmse=0.398132
+PASS fold 4: students=1000, predictions=56197, best_epoch=40, auc=0.709259, rmse=0.392800
+PASS five-fold coverage, split isolation, prediction metrics, validation selection, checkpoint hashes, summary statistics, dataset and source hashes
+PASS GPU7 runtime: frozen launcher, PCI/UUID binding, FP32/batch512, RNG-preserving checkpointing; peak allocated=767795200 bytes, reserved=989855744 bytes
+PASS fold 0: students=37, predictions=3663, best_epoch=43, auc=0.827912, rmse=0.408784
+PASS fold 1: students=37, predictions=3663, best_epoch=57, auc=0.830841, rmse=0.405034
+PASS fold 2: students=36, predictions=3564, best_epoch=45, auc=0.824459, rmse=0.400807
+PASS fold 3: students=36, predictions=3564, best_epoch=29, auc=0.807048, rmse=0.421439
+PASS fold 4: students=36, predictions=3564, best_epoch=37, auc=0.823610, rmse=0.407454
+PASS five-fold coverage, split isolation, prediction metrics, validation selection, checkpoint hashes, summary statistics, dataset and source hashes
+PASS GPU7 runtime: frozen launcher, PCI/UUID binding, FP32/batch512, RNG-preserving checkpointing; peak allocated=1385854976 bytes, reserved=1757413376 bytes
+PASS fold 0: students=67, predictions=6040, best_epoch=76, auc=0.796293, rmse=0.392115
+PASS fold 1: students=67, predictions=6067, best_epoch=74, auc=0.801358, rmse=0.390845
+PASS fold 2: students=67, predictions=5881, best_epoch=60, auc=0.783455, rmse=0.401613
+PASS fold 3: students=66, predictions=6033, best_epoch=75, auc=0.790702, rmse=0.401122
+PASS fold 4: students=66, predictions=6125, best_epoch=86, auc=0.796619, rmse=0.388829
+PASS five-fold coverage, split isolation, prediction metrics, validation selection, checkpoint hashes, summary statistics, dataset and source hashes
+/data/sqh/CL4KT/results/gpu7/all_datasets.csv
+/data/sqh/CL4KT/results/gpu7/all_datasets.json
+/data/sqh/CL4KT/results/gpu7/all_datasets_comparison.png
+/data/sqh/CL4KT/results/gpu7/all_datasets_comparison.pdf

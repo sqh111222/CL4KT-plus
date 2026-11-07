@@ -1,0 +1,7 @@
+/data/sqh/CL4KT/results/gpu7/sampled_slepemapy-fivefold/figures/validation_auc.png
+/data/sqh/CL4KT/results/gpu7/sampled_slepemapy-fivefold/figures/validation_auc.pdf
+/data/sqh/CL4KT/results/gpu7/sampled_slepemapy-fivefold/figures/paper_comparison.png
+/data/sqh/CL4KT/results/gpu7/sampled_slepemapy-fivefold/figures/paper_comparison.pdf
+/data/sqh/CL4KT/results/gpu7/sampled_slepemapy-fivefold/figures/calibration.png
+/data/sqh/CL4KT/results/gpu7/sampled_slepemapy-fivefold/figures/calibration.pdf
+/data/sqh/CL4KT/results/gpu7/sampled_slepemapy-fivefold/figures/calibration_bins.csv

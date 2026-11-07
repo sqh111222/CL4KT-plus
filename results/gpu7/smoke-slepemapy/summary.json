@@ -1,0 +1,30 @@
+{
+  "complete": false,
+  "completed_folds": 1,
+  "folds": [
+    {
+      "auc": 0.5522750365164246,
+      "rmse": 0.4132717967980381,
+      "acc": 0.7847293909452883,
+      "count": 54248,
+      "fold": 0,
+      "seed": 12405,
+      "best_epoch": 1,
+      "best_valid_auc": 0.548679323195651,
+      "epochs_run": 1,
+      "elapsed_seconds": 9.073,
+      "checkpoint_sha256": "3a2f2bffa3c85a0c943b44012b8e964b0b1251b954e88a015f3f3f3f47657a0e"
+    }
+  ],
+  "paper": null,
+  "mean": {
+    "auc": 0.5522750365164246,
+    "rmse": 0.4132717967980381,
+    "acc": 0.7847293909452883
+  },
+  "std_population": {
+    "auc": 0.0,
+    "rmse": 0.0,
+    "acc": 0.0
+  }
+}

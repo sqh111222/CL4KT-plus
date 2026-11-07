@@ -1,0 +1,55 @@
+test_cuda_dropout_and_device_rng_are_exactly_preserved (test_checkpointing.CheckpointingTests.test_cuda_dropout_and_device_rng_are_exactly_preserved) ... {
+  "passed": true,
+  "device": "cuda:0",
+  "model_seed": 31,
+  "forward_seed": 919,
+  "batch_size": 2,
+  "hidden_size": 16,
+  "num_blocks": 2,
+  "dropout": 0.2,
+  "torch": "2.6.0+cu124",
+  "precision": "float32",
+  "prediction_max_abs_diff": 0.0,
+  "contrastive_loss_abs_diff": 0.0,
+  "total_loss_abs_diff": 0.0,
+  "gradient_max_abs_diff": 0.0,
+  "parameter_tensors_compared": 98,
+  "parameter_gradients_compared": 98,
+  "cpu_rng_exact": true,
+  "cuda_rng_exact": true,
+  "cuda_visible_devices": "7",
+  "cuda_device_order": "PCI_BUS_ID",
+  "physical_gpu_details": {
+    "index": 7,
+    "uuid": "GPU-8faa09bb-67c4-5def-c1c8-802f5f5271a8",
+    "pci_bus_id": "00000000:20:00.0"
+  },
+  "cuda_device_uuid": "8faa09bb-67c4-5def-c1c8-802f5f5271a8"
+}
+ok
+test_forward_loss_all_gradients_and_rng_are_exactly_preserved (test_checkpointing.CheckpointingTests.test_forward_loss_all_gradients_and_rng_are_exactly_preserved) ... {
+  "passed": true,
+  "device": "cpu",
+  "model_seed": 31,
+  "forward_seed": 919,
+  "batch_size": 2,
+  "hidden_size": 16,
+  "num_blocks": 2,
+  "dropout": 0.2,
+  "torch": "2.6.0+cu124",
+  "precision": "float32",
+  "prediction_max_abs_diff": 0.0,
+  "contrastive_loss_abs_diff": 0.0,
+  "total_loss_abs_diff": 0.0,
+  "gradient_max_abs_diff": 0.0,
+  "parameter_tensors_compared": 98,
+  "parameter_gradients_compared": 98,
+  "cpu_rng_exact": true,
+  "cuda_rng_exact": null
+}
+ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 3.119s
+
+OK

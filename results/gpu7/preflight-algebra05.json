@@ -1,0 +1,129 @@
+{
+  "data_name": "algebra05",
+  "data_path": "/data/sqh/CL4KT/dataset/algebra05/preprocessed_df.csv",
+  "students": 571,
+  "interactions": 607014,
+  "checked_partitions": [
+    {
+      "fold": 0,
+      "partition": "train",
+      "students": 410,
+      "skills": 241,
+      "predictions": 37456,
+      "positives": 28232
+    },
+    {
+      "fold": 0,
+      "partition": "valid",
+      "students": 46,
+      "skills": 152,
+      "predictions": 4337,
+      "positives": 3403
+    },
+    {
+      "fold": 0,
+      "partition": "test",
+      "students": 115,
+      "skills": 200,
+      "predictions": 10736,
+      "positives": 8075
+    },
+    {
+      "fold": 1,
+      "partition": "train",
+      "students": 411,
+      "skills": 242,
+      "predictions": 37619,
+      "positives": 28398
+    },
+    {
+      "fold": 1,
+      "partition": "valid",
+      "students": 46,
+      "skills": 186,
+      "predictions": 4338,
+      "positives": 3320
+    },
+    {
+      "fold": 1,
+      "partition": "test",
+      "students": 114,
+      "skills": 171,
+      "predictions": 10572,
+      "positives": 7992
+    },
+    {
+      "fold": 2,
+      "partition": "train",
+      "students": 411,
+      "skills": 239,
+      "predictions": 37462,
+      "positives": 28390
+    },
+    {
+      "fold": 2,
+      "partition": "valid",
+      "students": 46,
+      "skills": 180,
+      "predictions": 4387,
+      "positives": 3236
+    },
+    {
+      "fold": 2,
+      "partition": "test",
+      "students": 114,
+      "skills": 214,
+      "predictions": 10680,
+      "positives": 8084
+    },
+    {
+      "fold": 3,
+      "partition": "train",
+      "students": 411,
+      "skills": 238,
+      "predictions": 37959,
+      "positives": 28607
+    },
+    {
+      "fold": 3,
+      "partition": "valid",
+      "students": 46,
+      "skills": 148,
+      "predictions": 4363,
+      "positives": 3287
+    },
+    {
+      "fold": 3,
+      "partition": "test",
+      "students": 114,
+      "skills": 196,
+      "predictions": 10207,
+      "positives": 7816
+    },
+    {
+      "fold": 4,
+      "partition": "train",
+      "students": 411,
+      "skills": 243,
+      "predictions": 37781,
+      "positives": 28568
+    },
+    {
+      "fold": 4,
+      "partition": "valid",
+      "students": 46,
+      "skills": 171,
+      "predictions": 4414,
+      "positives": 3399
+    },
+    {
+      "fold": 4,
+      "partition": "test",
+      "students": 114,
+      "skills": 212,
+      "predictions": 10334,
+      "positives": 7743
+    }
+  ],
+  "passed": true
+}

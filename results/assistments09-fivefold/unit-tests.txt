@@ -1,0 +1,13 @@
+test_augmentation_boundaries_and_padding (test_data.DataTests.test_augmentation_boundaries_and_padding) ... ok
+test_augmentation_does_not_reset_global_rng (test_data.DataTests.test_augmentation_does_not_reset_global_rng) ... ok
+test_recent_history_and_student_splits (test_data.DataTests.test_recent_history_and_student_splits) ... ok
+test_cpu_training_loss_and_backward_are_finite (test_model.ModelTests.test_cpu_training_loss_and_backward_are_finite) ... ok
+test_fully_masked_attention_rows_are_zero (test_model.ModelTests.test_fully_masked_attention_rows_are_zero) ... ok
+test_mask_and_real_skill_response_embeddings_do_not_collide (test_model.ModelTests.test_mask_and_real_skill_response_embeddings_do_not_collide) ... ok
+test_predictions_do_not_see_current_or_future_responses (test_model.ModelTests.test_predictions_do_not_see_current_or_future_responses) ... ok
+test_single_student_evaluation_preserves_batch_dimension (test_model.ModelTests.test_single_student_evaluation_preserves_batch_dimension) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.089s
+
+OK

@@ -1,0 +1,13 @@
+{
+  "auc": 0.7962934545707814,
+  "rmse": 0.3921149638906907,
+  "acc": 0.7819536423841059,
+  "count": 6040,
+  "fold": 0,
+  "seed": 12405,
+  "best_epoch": 76,
+  "best_valid_auc": 0.8113621679145605,
+  "epochs_run": 86,
+  "elapsed_seconds": 58.439,
+  "checkpoint_sha256": "0063ca135470a9c5be43bbe604e119c11344d2b6de8b2ba433ee0671db870d89"
+}

@@ -1,0 +1,82 @@
+{
+  "complete": true,
+  "completed_folds": 5,
+  "folds": [
+    {
+      "auc": 0.7696805960661328,
+      "rmse": 0.3807929347847414,
+      "acc": 0.7992200919177382,
+      "count": 21541,
+      "fold": 0,
+      "seed": 12405,
+      "best_epoch": 103,
+      "best_valid_auc": 0.7865856870846598,
+      "epochs_run": 113,
+      "elapsed_seconds": 214.601,
+      "checkpoint_sha256": "9f509e92c3af63c67211609a50fa317d33b87f3559caedc128972ef8fa9b88b1"
+    },
+    {
+      "auc": 0.7737229794930023,
+      "rmse": 0.3822632177024898,
+      "acc": 0.7934841628959276,
+      "count": 22100,
+      "fold": 1,
+      "seed": 12406,
+      "best_epoch": 88,
+      "best_valid_auc": 0.7833624574879856,
+      "epochs_run": 98,
+      "elapsed_seconds": 192.416,
+      "checkpoint_sha256": "9ff199fbc177e6525818a899bf23de807d84f8b84ca6674d6b1281f36d333c6e"
+    },
+    {
+      "auc": 0.7688000997200168,
+      "rmse": 0.38047483545093375,
+      "acc": 0.7944205624216372,
+      "count": 22332,
+      "fold": 2,
+      "seed": 12407,
+      "best_epoch": 66,
+      "best_valid_auc": 0.7564749106791826,
+      "epochs_run": 76,
+      "elapsed_seconds": 137.39,
+      "checkpoint_sha256": "8a8e3904c19d569c7db1a44b46ba41a6c711ad9b2b79fad7196c81d13a952b2e"
+    },
+    {
+      "auc": 0.7753217335200451,
+      "rmse": 0.37431831787321884,
+      "acc": 0.8067436071509392,
+      "count": 22095,
+      "fold": 3,
+      "seed": 12408,
+      "best_epoch": 89,
+      "best_valid_auc": 0.7651298688790871,
+      "epochs_run": 99,
+      "elapsed_seconds": 157.232,
+      "checkpoint_sha256": "78bbaa88862e3c60ba97ad6f1bee65764ff86e4a871f3069f1c573374519074d"
+    },
+    {
+      "auc": 0.7646751854924319,
+      "rmse": 0.3839900531523602,
+      "acc": 0.7944891980959355,
+      "count": 21848,
+      "fold": 4,
+      "seed": 12409,
+      "best_epoch": 69,
+      "best_valid_auc": 0.7832207239324485,
+      "epochs_run": 79,
+      "elapsed_seconds": 125.316,
+      "checkpoint_sha256": "e4c575e41f81c30a835c627d445aacbc327265c6a807e78edd404eaed42971d0"
+    }
+  ],
+  "paper": null,
+  "mean": {
+    "auc": 0.7704401188583259,
+    "rmse": 0.3803678717927488,
+    "acc": 0.7976715244964356
+  },
+  "std_population": {
+    "auc": 0.003771162420562092,
+    "rmse": 0.003271139138469114,
+    "acc": 0.004958441240006195
+  }
+}

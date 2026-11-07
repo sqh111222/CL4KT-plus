@@ -1,0 +1,8 @@
+{
+  "status": "superseded_interrupted_run",
+  "reason": "User requested physical GPU7; full experiment restarted there.",
+  "previous_physical_gpu": 1,
+  "replacement_run": "results/gpu7/statics-fivefold",
+  "excluded_from_final_comparison": true,
+  "recorded_at": "2026-11-05T10:10:53.232407+08:00"
+}

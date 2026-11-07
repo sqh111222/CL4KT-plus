@@ -1,0 +1,2 @@
+epoch,train_loss,valid_auc,valid_rmse,elapsed_seconds
+1,2.1393915017445884,0.5958390685329888,0.4835446839715757,8.077

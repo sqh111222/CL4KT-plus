@@ -1,0 +1,6 @@
+PASS fold 0: students=739, predictions=28455, best_epoch=68, auc=0.764188, rmse=0.431372
+PASS fold 1: students=739, predictions=28874, best_epoch=48, auc=0.763479, rmse=0.431473
+PASS fold 2: students=739, predictions=30990, best_epoch=67, auc=0.759373, rmse=0.431287
+PASS fold 3: students=739, predictions=29796, best_epoch=51, auc=0.746075, rmse=0.438555
+PASS fold 4: students=739, predictions=31372, best_epoch=90, auc=0.765825, rmse=0.431463
+PASS five-fold coverage, split isolation, prediction metrics, validation selection, checkpoint hashes, summary statistics, dataset and source hashes

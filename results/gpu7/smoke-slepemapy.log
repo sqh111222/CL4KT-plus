@@ -1,0 +1,36 @@
+Physical GPU binding: CUDA_DEVICE_ORDER=None -> 'PCI_BUS_ID'; CUDA_VISIBLE_DEVICES='7' -> '7'; logical device cuda:0
+Recorded GPU7 execution metadata: /data/sqh/CL4KT/results/gpu7/smoke-slepemapy/execution.json
+Run directory: /data/sqh/CL4KT/results/gpu7/smoke-slepemapy
+Device: cuda:0; folds: [0]
+fold=0 epoch=001 loss=1.86674 val_auc=0.54868 best=0.54868@1 elapsed=8.8s
+TEST fold=0: {"auc": 0.5522750365164246, "rmse": 0.4132717967980381, "acc": 0.7847293909452883, "count": 54248, "fold": 0, "seed": 12405, "best_epoch": 1, "best_valid_auc": 0.548679323195651, "epochs_run": 1, "elapsed_seconds": 9.073, "checkpoint_sha256": "3a2f2bffa3c85a0c943b44012b8e964b0b1251b954e88a015f3f3f3f47657a0e"}
+{
+  "complete": false,
+  "completed_folds": 1,
+  "folds": [
+    {
+      "auc": 0.5522750365164246,
+      "rmse": 0.4132717967980381,
+      "acc": 0.7847293909452883,
+      "count": 54248,
+      "fold": 0,
+      "seed": 12405,
+      "best_epoch": 1,
+      "best_valid_auc": 0.548679323195651,
+      "epochs_run": 1,
+      "elapsed_seconds": 9.073,
+      "checkpoint_sha256": "3a2f2bffa3c85a0c943b44012b8e964b0b1251b954e88a015f3f3f3f47657a0e"
+    }
+  ],
+  "paper": null,
+  "mean": {
+    "auc": 0.5522750365164246,
+    "rmse": 0.4132717967980381,
+    "acc": 0.7847293909452883
+  },
+  "std_population": {
+    "auc": 0.0,
+    "rmse": 0.0,
+    "acc": 0.0
+  }
+}

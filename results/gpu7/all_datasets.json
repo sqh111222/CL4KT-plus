@@ -1,0 +1,1951 @@
+{
+  "complete": true,
+  "datasets": 6,
+  "folds_per_dataset": 5,
+  "generated_at": "2026-11-05T15:14:57.436339+08:00",
+  "paper_reference": {
+    "title": "Contrastive Learning for Knowledge Tracing",
+    "authors": "Wonsung Lee, Jaeyoon Chun, Youngmin Lee, Kyoungsoo Park, Sungrae Park",
+    "venue": "The ACM Web Conference 2022",
+    "doi": "10.1145/3485447.3512105",
+    "url": "https://doi.org/10.1145/3485447.3512105",
+    "local_notes": "docs/PAPER.md",
+    "dataset_statistics_table": 1,
+    "model_metrics_table": 2,
+    "reported_uncertainty": "Table 2 provides fold means without numerical standard deviations."
+  },
+  "aggregation": "Unweighted mean and population SD (ddof=0) of five per-fold metrics; pooled AUC is not substituted.",
+  "gpu_note": "GPU identity is taken separately from each run's recorded environment. ASSIST09 may predate the GPU7-only request.",
+  "scope": "Six fixed-configuration CL4KT experiments; this does not reproduce all baselines, ablations or significance tests.",
+  "runs": [
+    {
+      "dataset": "algebra05",
+      "paper_dataset_name": "algebra05",
+      "display_label": "Algebra05",
+      "run_dir": "/data/sqh/CL4KT/results/gpu7/algebra05-fivefold",
+      "complete": true,
+      "completed_folds": 5,
+      "metrics": {
+        "auc": {
+          "mean": 0.7878388746596372,
+          "std_population": 0.006907836215067435,
+          "fold_values": [
+            0.7907368327975588,
+            0.7952060830210055,
+            0.779088422678974,
+            0.7800743961811757,
+            0.7940886386194713
+          ],
+          "paper_mean": 0.7891,
+          "paper_std": null,
+          "delta_reproduced_minus_paper": -0.001261125340362823
+        },
+        "rmse": {
+          "mean": 0.38262295603306795,
+          "std_population": 0.0036560017108945844,
+          "fold_values": [
+            0.384842743866473,
+            0.37595642828596965,
+            0.3863815417258906,
+            0.3817224553444055,
+            0.3842116109426009
+          ],
+          "paper_mean": 0.3815,
+          "paper_std": null,
+          "delta_reproduced_minus_paper": 0.0011229560330679456
+        },
+        "acc": {
+          "mean": 0.7951497546616293,
+          "std_population": 0.005705706664580666,
+          "fold_values": [
+            0.7927533532041728,
+            0.8063753310631858,
+            0.7907303370786517,
+            0.7920054864308808,
+            0.793884265531256
+          ],
+          "paper_mean": null,
+          "paper_std": null,
+          "delta_reproduced_minus_paper": null
+        }
+      },
+      "folds": [
+        {
+          "auc": 0.7907368327975588,
+          "rmse": 0.384842743866473,
+          "acc": 0.7927533532041728,
+          "count": 10736,
+          "fold": 0,
+          "seed": 12405,
+          "best_epoch": 105,
+          "best_valid_auc": 0.7853086236416916,
+          "epochs_run": 115,
+          "elapsed_seconds": 116.988,
+          "checkpoint_sha256": "fb3ba96ce86f726dc6503de72182ef7f5dbe9428d3d84f747a800dd7c761bf8f"
+        },
+        {
+          "auc": 0.7952060830210055,
+          "rmse": 0.37595642828596965,
+          "acc": 0.8063753310631858,
+          "count": 10572,
+          "fold": 1,
+          "seed": 12406,
+          "best_epoch": 75,
+          "best_valid_auc": 0.7733645288422847,
+          "epochs_run": 85,
+          "elapsed_seconds": 89.399,
+          "checkpoint_sha256": "d885ae2f47a87be82ad7272afd23fa46c70f8d1d61aa18af6d8c1e988216f180"
+        },
+        {
+          "auc": 0.779088422678974,
+          "rmse": 0.3863815417258906,
+          "acc": 0.7907303370786517,
+          "count": 10680,
+          "fold": 2,
+          "seed": 12407,
+          "best_epoch": 76,
+          "best_valid_auc": 0.7851968621900234,
+          "epochs_run": 86,
+          "elapsed_seconds": 74.819,
+          "checkpoint_sha256": "b9fc90eba70267bd4ed43b17e0fcc4224517031e871c67eee4cd492e80873776"
+        },
+        {
+          "auc": 0.7800743961811757,
+          "rmse": 0.3817224553444055,
+          "acc": 0.7920054864308808,
+          "count": 10207,
+          "fold": 3,
+          "seed": 12408,
+          "best_epoch": 66,
+          "best_valid_auc": 0.8091186356526725,
+          "epochs_run": 76,
+          "elapsed_seconds": 78.469,
+          "checkpoint_sha256": "c2c1592ae97c0dc5a5006137895c43b2f67459c08989300a7ddb4a6b520bd1a3"
+        },
+        {
+          "auc": 0.7940886386194713,
+          "rmse": 0.3842116109426009,
+          "acc": 0.793884265531256,
+          "count": 10334,
+          "fold": 4,
+          "seed": 12409,
+          "best_epoch": 89,
+          "best_valid_auc": 0.7836270302624504,
+          "epochs_run": 99,
+          "elapsed_seconds": 99.107,
+          "checkpoint_sha256": "daf2e8294f18797ff40fb25557b998c5a21d6a249b75aabb6e8fec4b0e0e3958"
+        }
+      ],
+      "fold_training_seconds_sum": 458.782,
+      "base_seed": 12405,
+      "config": {
+        "data_name": "algebra05",
+        "data_path": "dataset/algebra05/preprocessed_df.csv",
+        "seed": 12405,
+        "num_folds": 5,
+        "validation_fraction": 0.1,
+        "model": {
+          "hidden_size": 64,
+          "num_blocks": 2,
+          "num_attn_heads": 8,
+          "kq_same": true,
+          "final_fc_dim": 512,
+          "d_ff": 1024,
+          "l2": 0.0,
+          "dropout": 0.2,
+          "reg_cl": 0.1,
+          "mask_prob": 0.5,
+          "crop_prob": 0.3,
+          "permute_prob": 0.5,
+          "replace_prob": 0.5,
+          "negative_prob": 1.0,
+          "temp": 0.05,
+          "hard_negative_weight": 1.0
+        },
+        "train": {
+          "seq_len": 100,
+          "batch_size": 512,
+          "eval_batch_size": 512,
+          "num_epochs": 300,
+          "patience": 10,
+          "learning_rate": 0.001,
+          "max_grad_norm": 2.0,
+          "num_workers": 0,
+          "cpu_threads": 4
+        }
+      },
+      "gpu": {
+        "logical_device": "cuda:0",
+        "cuda_visible_devices": "7",
+        "physical_device_token": "7",
+        "physical_gpu_ordinal": 7,
+        "gpu_name": "NVIDIA GeForce RTX 4090",
+        "mapping_source": "environment.json; no GPU is queried by this script",
+        "note": "Unrecorded visibility mappings are left unknown rather than inferred from the current machine."
+      },
+      "recorded_environment": {
+        "python": "3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:16:04) [GCC 11.2.0]",
+        "executable": "/data/sqh/CL4KT/.venv/bin/python",
+        "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+        "torch": "2.6.0+cu124",
+        "cuda": "12.4",
+        "numpy": "1.26.4",
+        "pandas": "2.3.3",
+        "sklearn": "1.8.0",
+        "device": "cuda:0",
+        "cuda_visible_devices": "7",
+        "cublas_workspace_config": ":4096:8",
+        "deterministic_algorithms": "enabled, warn_only=True",
+        "gpu": "NVIDIA GeForce RTX 4090",
+        "data_sha256": "4690cef1d1c8b4f95b5f8710f4374e3d2fc30894aac15359e549994c613fc583",
+        "upstream_commit": "f08aa4b5adb8eabfa4306b64e43bf3ac92ff06a2",
+        "recorded_at": "2026-11-05T10:13:05.958247+08:00",
+        "command": [
+          "scripts/train_gpu7.py",
+          "--config",
+          "configs/algebra05.yaml",
+          "--device",
+          "cuda:0",
+          "--output-dir",
+          "/data/sqh/CL4KT/results/gpu7/algebra05-fivefold"
+        ]
+      },
+      "recorded_execution": {
+        "schema_version": 1,
+        "physical_gpu": 7,
+        "cuda_visible_devices": "7",
+        "cuda_device_order": "PCI_BUS_ID",
+        "precision": "float32",
+        "training_batch_size": 512,
+        "activation_checkpointing": {
+          "enabled": true,
+          "target": "models.modules.CL4KTTransformerLayer.forward",
+          "use_reentrant": false,
+          "preserve_rng_state": true,
+          "condition": "module.training and torch.is_grad_enabled()"
+        },
+        "launcher_sha256": "83821a1d121ad3edeeb37f5463c6ef54d9713ebe7849825b2fb825eee348e61f",
+        "config_sha256": "6df7f644fb571e122ceb8d44c835b2af404b69144479a0a87b1cec7c7cef4954",
+        "torch": "2.6.0+cu124",
+        "cuda": "12.4",
+        "launcher_snapshot": "launcher/train_gpu7.py",
+        "previous_cuda_visible_devices": "7",
+        "previous_cuda_device_order": null,
+        "logical_device": "cuda:0",
+        "gpu_name": "NVIDIA GeForce RTX 4090",
+        "gpu_uuid": "8faa09bb-67c4-5def-c1c8-802f5f5271a8",
+        "physical_gpu_details": {
+          "index": 7,
+          "uuid": "GPU-8faa09bb-67c4-5def-c1c8-802f5f5271a8",
+          "pci_bus_id": "00000000:20:00.0"
+        },
+        "autocast_enabled": false,
+        "python": "3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:16:04) [GCC 11.2.0]",
+        "executable": "/data/sqh/CL4KT/.venv/bin/python",
+        "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+        "config_path": "/data/sqh/CL4KT/configs/algebra05.yaml",
+        "seed": 12405,
+        "optimizer": "Adam (unchanged main.py)",
+        "checkpointing_implementation": "runtime wrapper; core source files unchanged",
+        "command": [
+          "scripts/train_gpu7.py",
+          "--config",
+          "configs/algebra05.yaml",
+          "--device",
+          "cuda:0",
+          "--output-dir",
+          "/data/sqh/CL4KT/results/gpu7/algebra05-fivefold"
+        ],
+        "recorded_at": "2026-11-05T10:13:05.363067+08:00",
+        "exit_status": "success",
+        "failure": null,
+        "finished_at": "2026-11-05T10:20:48.157375+08:00",
+        "peak_cuda_memory_allocated": 2414686208,
+        "peak_cuda_memory_reserved": 2770337792
+      },
+      "execution_metadata_path": "/data/sqh/CL4KT/results/gpu7/algebra05-fivefold/execution.json",
+      "execution_metadata_sha256": "b05d34f94109d2bf87d4b53577e7885a732abb880def2c55ab14ae083072447d",
+      "source_sha256": {
+        "main.py": "5fe72742ac4d2b3c8bd03be783dfd9179a8d34b2ccf996806474f1c46a24e1e4",
+        "data_loaders.py": "6b665339f36f7d6db98ef169519337c47cc59923ca24bf100a89c19839adffce",
+        "utils/augment_seq.py": "d643193b6b0e8de45a35493e9cb92b9d11d3a20855a0ce5ceffa0655e4ea487c",
+        "models/cl4kt.py": "3a03c046bde1de094b092772ecb54bb7f8e945b38edc4b281e635b9e7cad7ac0",
+        "models/modules.py": "26f944d431817cc3ec549ab07bb7db9808b2a6291ca25a52d482ce8a63d8fa54"
+      },
+      "source_sha256_file": "/data/sqh/CL4KT/results/gpu7/algebra05-fivefold/source_sha256.json",
+      "full_verification_passed": true,
+      "verifier": "scripts.verify_run.verify_run (CPU checkpoint loading; read-only)",
+      "data": {
+        "data_path": "/data/sqh/CL4KT/dataset/algebra05/preprocessed_df.csv",
+        "data_sha256": "4690cef1d1c8b4f95b5f8710f4374e3d2fc30894aac15359e549994c613fc583",
+        "manifest_path": "/data/sqh/CL4KT/dataset/algebra05/manifest.json",
+        "manifest_sha256": "a5d5d3e545720dfb80c9e5d5844f9489ef05aa400ed595cffeadc192fa8bf198",
+        "actual_statistics_before_last100_truncation": {
+          "students": 571,
+          "questions": 173113,
+          "interactions": 607014,
+          "model_skill_tokens": 271,
+          "skills_table1_convention": 112
+        },
+        "paper_table1_comparison": {
+          "students": {
+            "actual": 571,
+            "paper": 571,
+            "matches": true
+          },
+          "questions": {
+            "actual": 173113,
+            "paper": 173113,
+            "matches": true
+          },
+          "skills": {
+            "actual": 112,
+            "paper": 112,
+            "matches": true
+          },
+          "interactions": {
+            "actual": 607014,
+            "paper": 607014,
+            "matches": true
+          }
+        },
+        "matches_paper_table1_statistics": true,
+        "exact_paper_sample_established": false,
+        "sample_comparability": "official original KDD training file; Table 1 counts match; authors' fold identities unavailable",
+        "new_fixed_sample": false,
+        "sampling_seed": null,
+        "public_sequence_version": false,
+        "raw_sources": {
+          "input_path": "/data/sqh/CL4KT/dataset/algebra05/algebra_2005_2006.zip",
+          "input_sha256": "a38d1fb55b139a38dfb019391417824855aef9104f51291d93fba614dacc9c84",
+          "official_archive_url": "https://kdd.org/cupfiles/algebra_2005_2006.zip",
+          "input_origin": "official SIGKDD archive at default archive path",
+          "downloaded_by_script_in_this_invocation": false,
+          "zip_member": "algebra_2005_2006_train.txt",
+          "raw_training_file_sha256": "19528668530108555e344e5bfcc68c762f63a458a32038599d189667e4f10407",
+          "dataset_page": "https://kdd.org/kdd-cup/view/kdd-cup-2010-student-performance-evaluation/Data",
+          "selected_partition": "original KDD development dataset training TXT only; master/test not concatenated"
+        },
+        "limitations_and_protocol_notes": [
+          "Paper skill counts are atomic KCs before merging; the model uses unique item-to-KC combinations.",
+          "PYTHONHASHSEED=0 fixes the upstream set iteration order when assigning KC columns and merged skill IDs.",
+          "Raw and processed interaction counts precede the training-time truncation to the latest 100 interactions per student.",
+          "The original dataset is retained; no synthetic data, merged test set, or pre-split sequence files are substituted."
+        ]
+      },
+      "paper_reference": {
+        "title": "Contrastive Learning for Knowledge Tracing",
+        "authors": "Wonsung Lee, Jaeyoon Chun, Youngmin Lee, Kyoungsoo Park, Sungrae Park",
+        "venue": "The ACM Web Conference 2022",
+        "doi": "10.1145/3485447.3512105",
+        "url": "https://doi.org/10.1145/3485447.3512105",
+        "local_notes": "docs/PAPER.md",
+        "dataset_statistics_table": 1,
+        "model_metrics_table": 2,
+        "reported_uncertainty": "Table 2 provides fold means without numerical standard deviations."
+      },
+      "comparison_note": "Positive AUC delta and negative RMSE delta indicate higher performance. No significance claim is inferred."
+    },
+    {
+      "dataset": "bridge_algebra06",
+      "paper_dataset_name": "algebra06",
+      "display_label": "Bridge Algebra06",
+      "run_dir": "/data/sqh/CL4KT/results/gpu7/bridge_algebra06-fivefold",
+      "complete": true,
+      "completed_folds": 5,
+      "metrics": {
+        "auc": {
+          "mean": 0.7704401188583259,
+          "std_population": 0.003771162420562092,
+          "fold_values": [
+            0.7696805960661328,
+            0.7737229794930023,
+            0.7688000997200168,
+            0.7753217335200451,
+            0.7646751854924319
+          ],
+          "paper_mean": 0.7733,
+          "paper_std": null,
+          "delta_reproduced_minus_paper": -0.0028598811416741254
+        },
+        "rmse": {
+          "mean": 0.3803678717927488,
+          "std_population": 0.003271139138469114,
+          "fold_values": [
+            0.3807929347847414,
+            0.3822632177024898,
+            0.38047483545093375,
+            0.37431831787321884,
+            0.3839900531523602
+          ],
+          "paper_mean": 0.3791,
+          "paper_std": null,
+          "delta_reproduced_minus_paper": 0.001267871792748787
+        },
+        "acc": {
+          "mean": 0.7976715244964356,
+          "std_population": 0.004958441240006195,
+          "fold_values": [
+            0.7992200919177382,
+            0.7934841628959276,
+            0.7944205624216372,
+            0.8067436071509392,
+            0.7944891980959355
+          ],
+          "paper_mean": null,
+          "paper_std": null,
+          "delta_reproduced_minus_paper": null
+        }
+      },
+      "folds": [
+        {
+          "auc": 0.7696805960661328,
+          "rmse": 0.3807929347847414,
+          "acc": 0.7992200919177382,
+          "count": 21541,
+          "fold": 0,
+          "seed": 12405,
+          "best_epoch": 103,
+          "best_valid_auc": 0.7865856870846598,
+          "epochs_run": 113,
+          "elapsed_seconds": 214.601,
+          "checkpoint_sha256": "9f509e92c3af63c67211609a50fa317d33b87f3559caedc128972ef8fa9b88b1"
+        },
+        {
+          "auc": 0.7737229794930023,
+          "rmse": 0.3822632177024898,
+          "acc": 0.7934841628959276,
+          "count": 22100,
+          "fold": 1,
+          "seed": 12406,
+          "best_epoch": 88,
+          "best_valid_auc": 0.7833624574879856,
+          "epochs_run": 98,
+          "elapsed_seconds": 192.416,
+          "checkpoint_sha256": "9ff199fbc177e6525818a899bf23de807d84f8b84ca6674d6b1281f36d333c6e"
+        },
+        {
+          "auc": 0.7688000997200168,
+          "rmse": 0.38047483545093375,
+          "acc": 0.7944205624216372,
+          "count": 22332,
+          "fold": 2,
+          "seed": 12407,
+          "best_epoch": 66,
+          "best_valid_auc": 0.7564749106791826,
+          "epochs_run": 76,
+          "elapsed_seconds": 137.39,
+          "checkpoint_sha256": "8a8e3904c19d569c7db1a44b46ba41a6c711ad9b2b79fad7196c81d13a952b2e"
+        },
+        {
+          "auc": 0.7753217335200451,
+          "rmse": 0.37431831787321884,
+          "acc": 0.8067436071509392,
+          "count": 22095,
+          "fold": 3,
+          "seed": 12408,
+          "best_epoch": 89,
+          "best_valid_auc": 0.7651298688790871,
+          "epochs_run": 99,
+          "elapsed_seconds": 157.232,
+          "checkpoint_sha256": "78bbaa88862e3c60ba97ad6f1bee65764ff86e4a871f3069f1c573374519074d"
+        },
+        {
+          "auc": 0.7646751854924319,
+          "rmse": 0.3839900531523602,
+          "acc": 0.7944891980959355,
+          "count": 21848,
+          "fold": 4,
+          "seed": 12409,
+          "best_epoch": 69,
+          "best_valid_auc": 0.7832207239324485,
+          "epochs_run": 79,
+          "elapsed_seconds": 125.316,
+          "checkpoint_sha256": "e4c575e41f81c30a835c627d445aacbc327265c6a807e78edd404eaed42971d0"
+        }
+      ],
+      "fold_training_seconds_sum": 826.9549999999999,
+      "base_seed": 12405,
+      "config": {
+        "data_name": "bridge_algebra06",
+        "data_path": "dataset/bridge_algebra06/preprocessed_df.csv",
+        "seed": 12405,
+        "num_folds": 5,
+        "validation_fraction": 0.1,
+        "model": {
+          "hidden_size": 64,
+          "num_blocks": 2,
+          "num_attn_heads": 8,
+          "kq_same": true,
+          "final_fc_dim": 512,
+          "d_ff": 1024,
+          "l2": 0.0,
+          "dropout": 0.2,
+          "reg_cl": 0.1,
+          "mask_prob": 0.5,
+          "crop_prob": 0.3,
+          "permute_prob": 0.5,
+          "replace_prob": 0.5,
+          "negative_prob": 1.0,
+          "temp": 0.05,
+          "hard_negative_weight": 1.0
+        },
+        "train": {
+          "seq_len": 100,
+          "batch_size": 512,
+          "eval_batch_size": 512,
+          "num_epochs": 300,
+          "patience": 10,
+          "learning_rate": 0.001,
+          "max_grad_norm": 2.0,
+          "num_workers": 0,
+          "cpu_threads": 4
+        }
+      },
+      "gpu": {
+        "logical_device": "cuda:0",
+        "cuda_visible_devices": "7",
+        "physical_device_token": "7",
+        "physical_gpu_ordinal": 7,
+        "gpu_name": "NVIDIA GeForce RTX 4090",
+        "mapping_source": "environment.json; no GPU is queried by this script",
+        "note": "Unrecorded visibility mappings are left unknown rather than inferred from the current machine."
+      },
+      "recorded_environment": {
+        "python": "3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:16:04) [GCC 11.2.0]",
+        "executable": "/data/sqh/CL4KT/.venv/bin/python",
+        "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+        "torch": "2.6.0+cu124",
+        "cuda": "12.4",
+        "numpy": "1.26.4",
+        "pandas": "2.3.3",
+        "sklearn": "1.8.0",
+        "device": "cuda:0",
+        "cuda_visible_devices": "7",
+        "cublas_workspace_config": ":4096:8",
+        "deterministic_algorithms": "enabled, warn_only=True",
+        "gpu": "NVIDIA GeForce RTX 4090",
+        "data_sha256": "6bfd73a7674b9df8e2a0c1afb2a8a55c3cff1bc5255d507b2cee0ffb09a35373",
+        "upstream_commit": "f08aa4b5adb8eabfa4306b64e43bf3ac92ff06a2",
+        "recorded_at": "2026-11-05T10:20:58.110790+08:00",
+        "command": [
+          "scripts/train_gpu7.py",
+          "--config",
+          "configs/bridge_algebra06.yaml",
+          "--device",
+          "cuda:0",
+          "--output-dir",
+          "/data/sqh/CL4KT/results/gpu7/bridge_algebra06-fivefold"
+        ]
+      },
+      "recorded_execution": {
+        "schema_version": 1,
+        "physical_gpu": 7,
+        "cuda_visible_devices": "7",
+        "cuda_device_order": "PCI_BUS_ID",
+        "precision": "float32",
+        "training_batch_size": 512,
+        "activation_checkpointing": {
+          "enabled": true,
+          "target": "models.modules.CL4KTTransformerLayer.forward",
+          "use_reentrant": false,
+          "preserve_rng_state": true,
+          "condition": "module.training and torch.is_grad_enabled()"
+        },
+        "launcher_sha256": "83821a1d121ad3edeeb37f5463c6ef54d9713ebe7849825b2fb825eee348e61f",
+        "config_sha256": "fc580ab190d563b06e1cdde54ddd3116b3f031366f3cf1475ce2ae6d88529b64",
+        "torch": "2.6.0+cu124",
+        "cuda": "12.4",
+        "launcher_snapshot": "launcher/train_gpu7.py",
+        "previous_cuda_visible_devices": "7",
+        "previous_cuda_device_order": null,
+        "logical_device": "cuda:0",
+        "gpu_name": "NVIDIA GeForce RTX 4090",
+        "gpu_uuid": "8faa09bb-67c4-5def-c1c8-802f5f5271a8",
+        "physical_gpu_details": {
+          "index": 7,
+          "uuid": "GPU-8faa09bb-67c4-5def-c1c8-802f5f5271a8",
+          "pci_bus_id": "00000000:20:00.0"
+        },
+        "autocast_enabled": false,
+        "python": "3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:16:04) [GCC 11.2.0]",
+        "executable": "/data/sqh/CL4KT/.venv/bin/python",
+        "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+        "config_path": "/data/sqh/CL4KT/configs/bridge_algebra06.yaml",
+        "seed": 12405,
+        "optimizer": "Adam (unchanged main.py)",
+        "checkpointing_implementation": "runtime wrapper; core source files unchanged",
+        "command": [
+          "scripts/train_gpu7.py",
+          "--config",
+          "configs/bridge_algebra06.yaml",
+          "--device",
+          "cuda:0",
+          "--output-dir",
+          "/data/sqh/CL4KT/results/gpu7/bridge_algebra06-fivefold"
+        ],
+        "recorded_at": "2026-11-05T10:20:57.589396+08:00",
+        "exit_status": "success",
+        "failure": null,
+        "finished_at": "2026-11-05T10:35:56.696264+08:00",
+        "peak_cuda_memory_allocated": 3065760768,
+        "peak_cuda_memory_reserved": 3659530240
+      },
+      "execution_metadata_path": "/data/sqh/CL4KT/results/gpu7/bridge_algebra06-fivefold/execution.json",
+      "execution_metadata_sha256": "5f921318bf70d2982d08c919eecb5afe7590f58a0e0c8f31d462079aad491663",
+      "source_sha256": {
+        "main.py": "5fe72742ac4d2b3c8bd03be783dfd9179a8d34b2ccf996806474f1c46a24e1e4",
+        "data_loaders.py": "6b665339f36f7d6db98ef169519337c47cc59923ca24bf100a89c19839adffce",
+        "utils/augment_seq.py": "d643193b6b0e8de45a35493e9cb92b9d11d3a20855a0ce5ceffa0655e4ea487c",
+        "models/cl4kt.py": "3a03c046bde1de094b092772ecb54bb7f8e945b38edc4b281e635b9e7cad7ac0",
+        "models/modules.py": "26f944d431817cc3ec549ab07bb7db9808b2a6291ca25a52d482ce8a63d8fa54"
+      },
+      "source_sha256_file": "/data/sqh/CL4KT/results/gpu7/bridge_algebra06-fivefold/source_sha256.json",
+      "full_verification_passed": true,
+      "verifier": "scripts.verify_run.verify_run (CPU checkpoint loading; read-only)",
+      "data": {
+        "data_path": "/data/sqh/CL4KT/dataset/bridge_algebra06/preprocessed_df.csv",
+        "data_sha256": "6bfd73a7674b9df8e2a0c1afb2a8a55c3cff1bc5255d507b2cee0ffb09a35373",
+        "manifest_path": "/data/sqh/CL4KT/dataset/bridge_algebra06/manifest.json",
+        "manifest_sha256": "87b5ae3f4436a4b3d0a1fd64dc9b54f1b1982cb1145b2c96d261bbe65ae01959",
+        "actual_statistics_before_last100_truncation": {
+          "students": 1138,
+          "questions": 129263,
+          "interactions": 1817450,
+          "model_skill_tokens": 550,
+          "skills_table1_convention": 493
+        },
+        "paper_table1_comparison": {
+          "students": {
+            "actual": 1138,
+            "paper": 1138,
+            "matches": true
+          },
+          "questions": {
+            "actual": 129263,
+            "paper": 129263,
+            "matches": true
+          },
+          "skills": {
+            "actual": 493,
+            "paper": 493,
+            "matches": true
+          },
+          "interactions": {
+            "actual": 1817450,
+            "paper": 1817450,
+            "matches": true
+          }
+        },
+        "matches_paper_table1_statistics": true,
+        "exact_paper_sample_established": false,
+        "sample_comparability": "official original KDD training file; Table 1 counts match; authors' fold identities unavailable",
+        "new_fixed_sample": false,
+        "sampling_seed": null,
+        "public_sequence_version": false,
+        "raw_sources": {
+          "input_path": "/data/sqh/CL4KT/dataset/bridge_algebra06/bridge_to_algebra_2006_2007.zip",
+          "input_sha256": "b1294ef413dbf9822a3192f0271a2fed528a067f186739146e2a02bde75081a9",
+          "official_archive_url": "https://kdd.org/cupfiles/bridge_to_algebra_2006_2007.zip",
+          "input_origin": "official SIGKDD archive at default archive path",
+          "downloaded_by_script_in_this_invocation": false,
+          "zip_member": "bridge_to_algebra_2006_2007_train.txt",
+          "raw_training_file_sha256": "b515555fc4e55a1dfba3af555416a88e256d4681399789472e2559520017272b",
+          "dataset_page": "https://kdd.org/kdd-cup/view/kdd-cup-2010-student-performance-evaluation/Data",
+          "selected_partition": "original KDD development dataset training TXT only; master/test not concatenated"
+        },
+        "limitations_and_protocol_notes": [
+          "Paper skill counts are atomic KCs before merging; the model uses unique item-to-KC combinations.",
+          "PYTHONHASHSEED=0 fixes the upstream set iteration order when assigning KC columns and merged skill IDs.",
+          "Raw and processed interaction counts precede the training-time truncation to the latest 100 interactions per student.",
+          "The original dataset is retained; no synthetic data, merged test set, or pre-split sequence files are substituted."
+        ]
+      },
+      "paper_reference": {
+        "title": "Contrastive Learning for Knowledge Tracing",
+        "authors": "Wonsung Lee, Jaeyoon Chun, Youngmin Lee, Kyoungsoo Park, Sungrae Park",
+        "venue": "The ACM Web Conference 2022",
+        "doi": "10.1145/3485447.3512105",
+        "url": "https://doi.org/10.1145/3485447.3512105",
+        "local_notes": "docs/PAPER.md",
+        "dataset_statistics_table": 1,
+        "model_metrics_table": 2,
+        "reported_uncertainty": "Table 2 provides fold means without numerical standard deviations."
+      },
+      "comparison_note": "Positive AUC delta and negative RMSE delta indicate higher performance. No significance claim is inferred."
+    },
+    {
+      "dataset": "assistments09",
+      "paper_dataset_name": "assist09",
+      "display_label": "ASSIST09",
+      "run_dir": "/data/sqh/CL4KT/results/assistments09-fivefold",
+      "complete": true,
+      "completed_folds": 5,
+      "metrics": {
+        "auc": {
+          "mean": 0.7597882584850237,
+          "std_population": 0.007178336501849141,
+          "fold_values": [
+            0.7641881035861489,
+            0.7634794539081615,
+            0.7593734452043267,
+            0.7460753103912627,
+            0.7658249793352192
+          ],
+          "paper_mean": 0.7624,
+          "paper_std": null,
+          "delta_reproduced_minus_paper": -0.002611741514976229
+        },
+        "rmse": {
+          "mean": 0.43282980992762415,
+          "std_population": 0.002863497319465144,
+          "fold_values": [
+            0.43137161364534693,
+            0.43147284928012425,
+            0.4312868696844056,
+            0.4385552112755961,
+            0.4314625057526479
+          ],
+          "paper_mean": 0.4333,
+          "paper_std": null,
+          "delta_reproduced_minus_paper": -0.0004701900723758645
+        },
+        "acc": {
+          "mean": 0.7201075969105839,
+          "std_population": 0.004930944407569055,
+          "fold_values": [
+            0.7206817782463539,
+            0.7223107293759091,
+            0.7243949661181026,
+            0.7105316149818768,
+            0.7226188958306771
+          ],
+          "paper_mean": null,
+          "paper_std": null,
+          "delta_reproduced_minus_paper": null
+        }
+      },
+      "folds": [
+        {
+          "auc": 0.7641881035861489,
+          "rmse": 0.43137161364534693,
+          "acc": 0.7206817782463539,
+          "count": 28455,
+          "fold": 0,
+          "seed": 12405,
+          "best_epoch": 68,
+          "best_valid_auc": 0.7600665989030768,
+          "epochs_run": 78,
+          "elapsed_seconds": 496.767,
+          "checkpoint_sha256": "0136bffe2c4977ff21130ef1bc14ef3b48e3683c12867dc93c8f8ba78c3d8661"
+        },
+        {
+          "auc": 0.7634794539081615,
+          "rmse": 0.43147284928012425,
+          "acc": 0.7223107293759091,
+          "count": 28874,
+          "fold": 1,
+          "seed": 12406,
+          "best_epoch": 48,
+          "best_valid_auc": 0.7593965797830695,
+          "epochs_run": 58,
+          "elapsed_seconds": 368.872,
+          "checkpoint_sha256": "58507417b8faf6db01cc7a5536a3247cd2c76aeca5eb3942e34b8adafb739dc1"
+        },
+        {
+          "auc": 0.7593734452043267,
+          "rmse": 0.4312868696844056,
+          "acc": 0.7243949661181026,
+          "count": 30990,
+          "fold": 2,
+          "seed": 12407,
+          "best_epoch": 67,
+          "best_valid_auc": 0.7716210420625631,
+          "epochs_run": 77,
+          "elapsed_seconds": 489.614,
+          "checkpoint_sha256": "62986da3ca420f57d6dec8825d6dfd55ea2c58e5dfcc9d62e8c8d9f7e274e809"
+        },
+        {
+          "auc": 0.7460753103912627,
+          "rmse": 0.4385552112755961,
+          "acc": 0.7105316149818768,
+          "count": 29796,
+          "fold": 3,
+          "seed": 12408,
+          "best_epoch": 51,
+          "best_valid_auc": 0.7684805310683784,
+          "epochs_run": 61,
+          "elapsed_seconds": 387.862,
+          "checkpoint_sha256": "2da14451ab59c35106296bde4aaa990d4a3fc2ff98840e78e626db6d036506fa"
+        },
+        {
+          "auc": 0.7658249793352192,
+          "rmse": 0.4314625057526479,
+          "acc": 0.7226188958306771,
+          "count": 31372,
+          "fold": 4,
+          "seed": 12409,
+          "best_epoch": 90,
+          "best_valid_auc": 0.7504861933499183,
+          "epochs_run": 100,
+          "elapsed_seconds": 634.89,
+          "checkpoint_sha256": "4fdfb95a813166891ccfb6e659921b4487055ae9ec600bcebf74e75090191c96"
+        }
+      ],
+      "fold_training_seconds_sum": 2378.005,
+      "base_seed": 12405,
+      "config": {
+        "data_name": "assistments09",
+        "data_path": "dataset/assistments09/preprocessed_df.csv",
+        "seed": 12405,
+        "num_folds": 5,
+        "validation_fraction": 0.1,
+        "model": {
+          "hidden_size": 64,
+          "num_blocks": 2,
+          "num_attn_heads": 8,
+          "kq_same": true,
+          "final_fc_dim": 512,
+          "d_ff": 1024,
+          "l2": 0.0,
+          "dropout": 0.2,
+          "reg_cl": 0.1,
+          "mask_prob": 0.5,
+          "crop_prob": 0.3,
+          "permute_prob": 0.5,
+          "replace_prob": 0.5,
+          "negative_prob": 1.0,
+          "temp": 0.05,
+          "hard_negative_weight": 1.0
+        },
+        "train": {
+          "seq_len": 100,
+          "batch_size": 512,
+          "eval_batch_size": 512,
+          "num_epochs": 300,
+          "patience": 10,
+          "learning_rate": 0.001,
+          "max_grad_norm": 2.0,
+          "num_workers": 0,
+          "cpu_threads": 4
+        }
+      },
+      "gpu": {
+        "logical_device": "cuda:0",
+        "cuda_visible_devices": "4",
+        "physical_device_token": "4",
+        "physical_gpu_ordinal": 4,
+        "gpu_name": "NVIDIA GeForce RTX 4090",
+        "mapping_source": "environment.json; no GPU is queried by this script",
+        "note": "Unrecorded visibility mappings are left unknown rather than inferred from the current machine."
+      },
+      "recorded_environment": {
+        "python": "3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:16:04) [GCC 11.2.0]",
+        "executable": "/data/sqh/CL4KT/.venv/bin/python",
+        "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+        "torch": "2.6.0+cu124",
+        "cuda": "12.4",
+        "numpy": "1.26.4",
+        "pandas": "2.3.3",
+        "sklearn": "1.8.0",
+        "device": "cuda:0",
+        "cuda_visible_devices": "4",
+        "cublas_workspace_config": ":4096:8",
+        "deterministic_algorithms": "enabled, warn_only=True",
+        "gpu": "NVIDIA GeForce RTX 4090",
+        "data_sha256": "d79d9cc294309f91ac1993d08d57e81aa08642f17bc8a2c2b0a9db8bd38bad98",
+        "upstream_commit": "f08aa4b5adb8eabfa4306b64e43bf3ac92ff06a2",
+        "recorded_at": "2026-11-04T15:00:58.366826+08:00",
+        "command": [
+          "main.py",
+          "--config",
+          "configs/assistments09.yaml",
+          "--device",
+          "cuda:0",
+          "--output-dir",
+          "results/assistments09-fivefold"
+        ]
+      },
+      "recorded_execution": null,
+      "execution_metadata_path": null,
+      "execution_metadata_sha256": null,
+      "source_sha256": {
+        "main.py": "5fe72742ac4d2b3c8bd03be783dfd9179a8d34b2ccf996806474f1c46a24e1e4",
+        "data_loaders.py": "6b665339f36f7d6db98ef169519337c47cc59923ca24bf100a89c19839adffce",
+        "utils/augment_seq.py": "d643193b6b0e8de45a35493e9cb92b9d11d3a20855a0ce5ceffa0655e4ea487c",
+        "models/cl4kt.py": "3a03c046bde1de094b092772ecb54bb7f8e945b38edc4b281e635b9e7cad7ac0",
+        "models/modules.py": "26f944d431817cc3ec549ab07bb7db9808b2a6291ca25a52d482ce8a63d8fa54"
+      },
+      "source_sha256_file": "/data/sqh/CL4KT/results/assistments09-fivefold/source_sha256.json",
+      "full_verification_passed": true,
+      "verifier": "scripts.verify_run.verify_run (CPU checkpoint loading; read-only)",
+      "data": {
+        "data_path": "/data/sqh/CL4KT/dataset/assistments09/preprocessed_df.csv",
+        "data_sha256": "d79d9cc294309f91ac1993d08d57e81aa08642f17bc8a2c2b0a9db8bd38bad98",
+        "manifest_path": "/data/sqh/CL4KT/dataset/assistments09/manifest.json",
+        "manifest_sha256": "8247236cdd4f45470f6b248ae2a92b6b5235e8a9c0ce12e612fbec4a0f22ccd8",
+        "actual_statistics_before_last100_truncation": {
+          "students": 3695,
+          "questions": 17728,
+          "interactions": 282071,
+          "model_skill_tokens": 149,
+          "skills_table1_convention": 112
+        },
+        "paper_table1_comparison": {
+          "students": {
+            "actual": 3695,
+            "paper": 3695,
+            "matches": true
+          },
+          "questions": {
+            "actual": 17728,
+            "paper": 17728,
+            "matches": true
+          },
+          "skills": {
+            "actual": 112,
+            "paper": 112,
+            "matches": true
+          },
+          "interactions": {
+            "actual": 282071,
+            "paper": 282071,
+            "matches": true
+          }
+        },
+        "matches_paper_table1_statistics": true,
+        "exact_paper_sample_established": false,
+        "sample_comparability": "expanded corrected.csv; Table 1 counts match; paper sample identity not independently established",
+        "new_fixed_sample": false,
+        "sampling_seed": null,
+        "public_sequence_version": false,
+        "raw_sources": {
+          "input_path": "/data/sqh/KT/AKT/data/2009_skill_builder_data_corrected/skill_builder_data_corrected.csv",
+          "input_type": "csv",
+          "input_sha256": "1aa296e00b6c88c4d6fad4ca2ae4866484d9fe5484f38f5c8c94dfc49f045e08",
+          "zip_member": null,
+          "raw_csv_path": "/data/sqh/CL4KT/dataset/assistments09/data.csv",
+          "raw_csv_sha256": "1aa296e00b6c88c4d6fad4ca2ae4866484d9fe5484f38f5c8c94dfc49f045e08",
+          "matches_verified_corrected_csv": true,
+          "dataset_homepage": "https://sites.google.com/site/assistmentsdata/home/2009-2010-assistment-data/skill-builder-data-2009-2010",
+          "public_corrected_zip_mirror": "https://base.ustc.edu.cn/data/ASSISTment/2009_skill_builder_data_corrected.zip",
+          "provenance_note": "Input path and hashes identify the file actually used; the mirror URL is a retrieval option, not a claim this local file was downloaded in this run."
+        },
+        "limitations_and_protocol_notes": [
+          "Paper Table 1 reports 112 skills; upstream prints this after keeping the first row of each order_id and before replacing skills by unique Q-matrix rows.",
+          "The full question-to-skill matrix is built before order_id deduplication, so the actual model input contains 149 unique skill combinations for the verified corrected.csv.",
+          "The minimum-length filter precedes deduplication in upstream. The verified file therefore retains 51 students with fewer than 5 distinct interactions (minimum 2). This run preserves that order.",
+          "The later collapsed one-row-per-student-problem release differs from the expanded corrected.csv used here and should not be substituted silently."
+        ]
+      },
+      "paper_reference": {
+        "title": "Contrastive Learning for Knowledge Tracing",
+        "authors": "Wonsung Lee, Jaeyoon Chun, Youngmin Lee, Kyoungsoo Park, Sungrae Park",
+        "venue": "The ACM Web Conference 2022",
+        "doi": "10.1145/3485447.3512105",
+        "url": "https://doi.org/10.1145/3485447.3512105",
+        "local_notes": "docs/PAPER.md",
+        "dataset_statistics_table": 1,
+        "model_metrics_table": 2,
+        "reported_uncertainty": "Table 2 provides fold means without numerical standard deviations."
+      },
+      "comparison_note": "Positive AUC delta and negative RMSE delta indicate higher performance. No significance claim is inferred."
+    },
+    {
+      "dataset": "sampled_slepemapy",
+      "paper_dataset_name": "slepemapy",
+      "display_label": "Slepemapy*",
+      "run_dir": "/data/sqh/CL4KT/results/gpu7/sampled_slepemapy-fivefold",
+      "complete": true,
+      "completed_folds": 5,
+      "metrics": {
+        "auc": {
+          "mean": 0.7095788018527517,
+          "std_population": 0.0064063532505630304,
+          "fold_values": [
+            0.6998530351447982,
+            0.7074745418881155,
+            0.719670869943054,
+            0.7116369559507512,
+            0.7092586063370399
+          ],
+          "paper_mean": 0.7218,
+          "paper_std": null,
+          "delta_reproduced_minus_paper": -0.012221198147248313
+        },
+        "rmse": {
+          "mean": 0.3949249406113606,
+          "std_population": 0.0029339188976853455,
+          "fold_values": [
+            0.3982720499034915,
+            0.39461155820011146,
+            0.3908094352188377,
+            0.39813187040811604,
+            0.39279978932624615
+          ],
+          "paper_mean": 0.3926,
+          "paper_std": null,
+          "delta_reproduced_minus_paper": 0.002324940611360571
+        },
+        "acc": {
+          "mean": 0.7861066449069166,
+          "std_population": 0.005318628390552181,
+          "fold_values": [
+            0.7822039522194366,
+            0.7880520326379968,
+            0.7848803541740609,
+            0.7800875273522976,
+            0.795309358150791
+          ],
+          "paper_mean": null,
+          "paper_std": null,
+          "delta_reproduced_minus_paper": null
+        }
+      },
+      "folds": [
+        {
+          "auc": 0.6998530351447982,
+          "rmse": 0.3982720499034915,
+          "acc": 0.7822039522194366,
+          "count": 54248,
+          "fold": 0,
+          "seed": 12405,
+          "best_epoch": 23,
+          "best_valid_auc": 0.7070366868518598,
+          "epochs_run": 33,
+          "elapsed_seconds": 234.936,
+          "checkpoint_sha256": "6c2acaba51723b38645f890fe1ba3d6ed531ef2e8a136869fafb3ece4c18e557"
+        },
+        {
+          "auc": 0.7074745418881155,
+          "rmse": 0.39461155820011146,
+          "acc": 0.7880520326379968,
+          "count": 55273,
+          "fold": 1,
+          "seed": 12406,
+          "best_epoch": 44,
+          "best_valid_auc": 0.7091635924343036,
+          "epochs_run": 54,
+          "elapsed_seconds": 380.221,
+          "checkpoint_sha256": "3759a013154c76e3317e267395332d21a47612a0be39263e67f6d0c11797d556"
+        },
+        {
+          "auc": 0.719670869943054,
+          "rmse": 0.3908094352188377,
+          "acc": 0.7848803541740609,
+          "count": 53533,
+          "fold": 2,
+          "seed": 12407,
+          "best_epoch": 82,
+          "best_valid_auc": 0.7129783924177705,
+          "epochs_run": 92,
+          "elapsed_seconds": 650.111,
+          "checkpoint_sha256": "37f8d4b985a74f5745ee5788a7173d5cb1813ccf81dbf70d58b8a5aa1714a3bf"
+        },
+        {
+          "auc": 0.7116369559507512,
+          "rmse": 0.39813187040811604,
+          "acc": 0.7800875273522976,
+          "count": 55754,
+          "fold": 3,
+          "seed": 12408,
+          "best_epoch": 69,
+          "best_valid_auc": 0.7186397355722909,
+          "epochs_run": 79,
+          "elapsed_seconds": 556.394,
+          "checkpoint_sha256": "d7e8dd9f68b1c2c4b55d0ab7373c215c3791613d925256c85bee473be5456e9c"
+        },
+        {
+          "auc": 0.7092586063370399,
+          "rmse": 0.39279978932624615,
+          "acc": 0.795309358150791,
+          "count": 56197,
+          "fold": 4,
+          "seed": 12409,
+          "best_epoch": 40,
+          "best_valid_auc": 0.7009628510219703,
+          "epochs_run": 50,
+          "elapsed_seconds": 352.81,
+          "checkpoint_sha256": "4372dd63eddb3048a2f43cef7f7e128fed0d43f1e58bc6064412d489beb4cd57"
+        }
+      ],
+      "fold_training_seconds_sum": 2174.472,
+      "base_seed": 12405,
+      "config": {
+        "data_name": "sampled_slepemapy",
+        "data_path": "dataset/sampled_slepemapy/preprocessed_df.csv",
+        "seed": 12405,
+        "num_folds": 5,
+        "validation_fraction": 0.1,
+        "model": {
+          "hidden_size": 64,
+          "num_blocks": 2,
+          "num_attn_heads": 8,
+          "kq_same": true,
+          "final_fc_dim": 512,
+          "d_ff": 1024,
+          "l2": 0.0,
+          "dropout": 0.2,
+          "reg_cl": 0.1,
+          "mask_prob": 0.5,
+          "crop_prob": 0.3,
+          "permute_prob": 0.5,
+          "replace_prob": 0.5,
+          "negative_prob": 1.0,
+          "temp": 0.05,
+          "hard_negative_weight": 1.0
+        },
+        "train": {
+          "seq_len": 100,
+          "batch_size": 512,
+          "eval_batch_size": 512,
+          "num_epochs": 300,
+          "patience": 10,
+          "learning_rate": 0.001,
+          "max_grad_norm": 2.0,
+          "num_workers": 0,
+          "cpu_threads": 4
+        }
+      },
+      "gpu": {
+        "logical_device": "cuda:0",
+        "cuda_visible_devices": "7",
+        "physical_device_token": "7",
+        "physical_gpu_ordinal": 7,
+        "gpu_name": "NVIDIA GeForce RTX 4090",
+        "mapping_source": "environment.json; no GPU is queried by this script",
+        "note": "Unrecorded visibility mappings are left unknown rather than inferred from the current machine."
+      },
+      "recorded_environment": {
+        "python": "3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:16:04) [GCC 11.2.0]",
+        "executable": "/data/sqh/CL4KT/.venv/bin/python",
+        "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+        "torch": "2.6.0+cu124",
+        "cuda": "12.4",
+        "numpy": "1.26.4",
+        "pandas": "2.3.3",
+        "sklearn": "1.8.0",
+        "device": "cuda:0",
+        "cuda_visible_devices": "7",
+        "cublas_workspace_config": ":4096:8",
+        "deterministic_algorithms": "enabled, warn_only=True",
+        "gpu": "NVIDIA GeForce RTX 4090",
+        "data_sha256": "aa4a2a7d73126988be86bcd788510c7efec1f7c12022c1697d4ec59c1959a560",
+        "upstream_commit": "f08aa4b5adb8eabfa4306b64e43bf3ac92ff06a2",
+        "recorded_at": "2026-11-05T10:36:06.373004+08:00",
+        "command": [
+          "scripts/train_gpu7.py",
+          "--config",
+          "configs/sampled_slepemapy.yaml",
+          "--device",
+          "cuda:0",
+          "--output-dir",
+          "/data/sqh/CL4KT/results/gpu7/sampled_slepemapy-fivefold"
+        ]
+      },
+      "recorded_execution": {
+        "schema_version": 1,
+        "physical_gpu": 7,
+        "cuda_visible_devices": "7",
+        "cuda_device_order": "PCI_BUS_ID",
+        "precision": "float32",
+        "training_batch_size": 512,
+        "activation_checkpointing": {
+          "enabled": true,
+          "target": "models.modules.CL4KTTransformerLayer.forward",
+          "use_reentrant": false,
+          "preserve_rng_state": true,
+          "condition": "module.training and torch.is_grad_enabled()"
+        },
+        "launcher_sha256": "83821a1d121ad3edeeb37f5463c6ef54d9713ebe7849825b2fb825eee348e61f",
+        "config_sha256": "413c69490c03e673d9013296100924d14892b4b369d7f7e386f46f97fa338e0d",
+        "torch": "2.6.0+cu124",
+        "cuda": "12.4",
+        "launcher_snapshot": "launcher/train_gpu7.py",
+        "previous_cuda_visible_devices": "7",
+        "previous_cuda_device_order": null,
+        "logical_device": "cuda:0",
+        "gpu_name": "NVIDIA GeForce RTX 4090",
+        "gpu_uuid": "8faa09bb-67c4-5def-c1c8-802f5f5271a8",
+        "physical_gpu_details": {
+          "index": 7,
+          "uuid": "GPU-8faa09bb-67c4-5def-c1c8-802f5f5271a8",
+          "pci_bus_id": "00000000:20:00.0"
+        },
+        "autocast_enabled": false,
+        "python": "3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:16:04) [GCC 11.2.0]",
+        "executable": "/data/sqh/CL4KT/.venv/bin/python",
+        "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+        "config_path": "/data/sqh/CL4KT/configs/sampled_slepemapy.yaml",
+        "seed": 12405,
+        "optimizer": "Adam (unchanged main.py)",
+        "checkpointing_implementation": "runtime wrapper; core source files unchanged",
+        "command": [
+          "scripts/train_gpu7.py",
+          "--config",
+          "configs/sampled_slepemapy.yaml",
+          "--device",
+          "cuda:0",
+          "--output-dir",
+          "/data/sqh/CL4KT/results/gpu7/sampled_slepemapy-fivefold"
+        ],
+        "recorded_at": "2026-11-05T10:36:05.978099+08:00",
+        "exit_status": "success",
+        "failure": null,
+        "finished_at": "2026-11-05T11:12:27.387882+08:00",
+        "peak_cuda_memory_allocated": 3066911232,
+        "peak_cuda_memory_reserved": 3596615680
+      },
+      "execution_metadata_path": "/data/sqh/CL4KT/results/gpu7/sampled_slepemapy-fivefold/execution.json",
+      "execution_metadata_sha256": "894043dec3b84db0caa25f2059e53614580dc3c1c42bbaa0c9a12cddea554ea0",
+      "source_sha256": {
+        "main.py": "5fe72742ac4d2b3c8bd03be783dfd9179a8d34b2ccf996806474f1c46a24e1e4",
+        "data_loaders.py": "6b665339f36f7d6db98ef169519337c47cc59923ca24bf100a89c19839adffce",
+        "utils/augment_seq.py": "d643193b6b0e8de45a35493e9cb92b9d11d3a20855a0ce5ceffa0655e4ea487c",
+        "models/cl4kt.py": "3a03c046bde1de094b092772ecb54bb7f8e945b38edc4b281e635b9e7cad7ac0",
+        "models/modules.py": "26f944d431817cc3ec549ab07bb7db9808b2a6291ca25a52d482ce8a63d8fa54"
+      },
+      "source_sha256_file": "/data/sqh/CL4KT/results/gpu7/sampled_slepemapy-fivefold/source_sha256.json",
+      "full_verification_passed": true,
+      "verifier": "scripts.verify_run.verify_run (CPU checkpoint loading; read-only)",
+      "data": {
+        "data_path": "/data/sqh/CL4KT/dataset/sampled_slepemapy/preprocessed_df.csv",
+        "data_sha256": "aa4a2a7d73126988be86bcd788510c7efec1f7c12022c1697d4ec59c1959a560",
+        "manifest_path": "/data/sqh/CL4KT/dataset/sampled_slepemapy/manifest.json",
+        "manifest_sha256": "3c19ec0130e6b825e1a52823bbf03cd2ad12d455fade0147a6a29166a68d2e89",
+        "actual_statistics_before_last100_truncation": {
+          "students": 5000,
+          "questions": 2713,
+          "interactions": 623212,
+          "model_skill_tokens": 1380,
+          "skills_table1_convention": 1380
+        },
+        "paper_table1_comparison": {
+          "students": {
+            "actual": 5000,
+            "paper": 5000,
+            "matches": true
+          },
+          "questions": {
+            "actual": 2713,
+            "paper": 2723,
+            "matches": false
+          },
+          "skills": {
+            "actual": 1380,
+            "paper": 1391,
+            "matches": false
+          },
+          "interactions": {
+            "actual": 623212,
+            "paper": 625523,
+            "matches": false
+          }
+        },
+        "matches_paper_table1_statistics": false,
+        "exact_paper_sample_established": false,
+        "sample_comparability": "new fixed-seed 5000-student sample; not the paper's exact sample",
+        "new_fixed_sample": true,
+        "sampling_seed": 12405,
+        "public_sequence_version": false,
+        "raw_sources": {
+          "source_path": "/data/sqh/KT/public dataset/Slepemapy.cz/answer.csv",
+          "source_url": "https://www.fi.muni.cz/adaptivelearning/data/slepemapy/2015-05-21.zip",
+          "raw_sha256": "c99b91857ec47cfb5cc535fd61c10db3b0072911e48736153b265eec19e17126",
+          "sampling_seed": 12405
+        },
+        "limitations_and_protocol_notes": [
+          "Same sorted-user shuffle and first-5000 selection as upstream, now with a recorded seed.",
+          "The paper's student IDs and sampling seed are unpublished; this is a new reproducible sample, not its exact sample.",
+          "Timestamp strings interpreted as UTC rather than host-local mktime; a common offset does not change sequence order.",
+          "Per-user timestamp quicksort, question/skill definitions, ID reindexing and missing-answer filtering follow upstream.",
+          "No repeated sampling to force the paper's counts. Training uses the fixed sample for all five folds."
+        ]
+      },
+      "paper_reference": {
+        "title": "Contrastive Learning for Knowledge Tracing",
+        "authors": "Wonsung Lee, Jaeyoon Chun, Youngmin Lee, Kyoungsoo Park, Sungrae Park",
+        "venue": "The ACM Web Conference 2022",
+        "doi": "10.1145/3485447.3512105",
+        "url": "https://doi.org/10.1145/3485447.3512105",
+        "local_notes": "docs/PAPER.md",
+        "dataset_statistics_table": 1,
+        "model_metrics_table": 2,
+        "reported_uncertainty": "Table 2 provides fold means without numerical standard deviations."
+      },
+      "comparison_note": "Positive AUC delta and negative RMSE delta indicate higher performance. No significance claim is inferred."
+    },
+    {
+      "dataset": "spanish",
+      "paper_dataset_name": "spanish",
+      "display_label": "Spanish",
+      "run_dir": "/data/sqh/CL4KT/results/gpu7/spanish-fivefold",
+      "complete": true,
+      "completed_folds": 5,
+      "metrics": {
+        "auc": {
+          "mean": 0.8227741309760512,
+          "std_population": 0.008274383762013974,
+          "fold_values": [
+            0.8279124755587417,
+            0.8308412838271009,
+            0.8244590153769841,
+            0.8070480879891191,
+            0.8236097921283105
+          ],
+          "paper_mean": 0.8289,
+          "paper_std": null,
+          "delta_reproduced_minus_paper": -0.006125869023948738
+        },
+        "rmse": {
+          "mean": 0.40870357398357016,
+          "std_population": 0.0069220924997206446,
+          "fold_values": [
+            0.4087844432819526,
+            0.40503398761481896,
+            0.4008070292370877,
+            0.42143882172971425,
+            0.407453588054277
+          ],
+          "paper_mean": 0.4049,
+          "paper_std": null,
+          "delta_reproduced_minus_paper": 0.0038035739835701743
+        },
+        "acc": {
+          "mean": 0.7563290563290563,
+          "std_population": 0.009206525174637723,
+          "fold_values": [
+            0.7581217581217581,
+            0.7592137592137592,
+            0.7648709315375982,
+            0.7384960718294051,
+            0.7609427609427609
+          ],
+          "paper_mean": null,
+          "paper_std": null,
+          "delta_reproduced_minus_paper": null
+        }
+      },
+      "folds": [
+        {
+          "auc": 0.8279124755587417,
+          "rmse": 0.4087844432819526,
+          "acc": 0.7581217581217581,
+          "count": 3663,
+          "fold": 0,
+          "seed": 12405,
+          "best_epoch": 43,
+          "best_valid_auc": 0.8139439744570408,
+          "epochs_run": 53,
+          "elapsed_seconds": 21.687,
+          "checkpoint_sha256": "5502fa0ad0c9a85596a42f2af2fb1c9f0a54f1334d058d1b3a1450ded0fa46b7"
+        },
+        {
+          "auc": 0.8308412838271009,
+          "rmse": 0.40503398761481896,
+          "acc": 0.7592137592137592,
+          "count": 3663,
+          "fold": 1,
+          "seed": 12406,
+          "best_epoch": 57,
+          "best_valid_auc": 0.837969899338207,
+          "epochs_run": 67,
+          "elapsed_seconds": 25.846,
+          "checkpoint_sha256": "981a8fc903639088afab1257e707c746192a5ae176b2a7e3a404b9e443387ef2"
+        },
+        {
+          "auc": 0.8244590153769841,
+          "rmse": 0.4008070292370877,
+          "acc": 0.7648709315375982,
+          "count": 3564,
+          "fold": 2,
+          "seed": 12407,
+          "best_epoch": 45,
+          "best_valid_auc": 0.8443939551849922,
+          "epochs_run": 55,
+          "elapsed_seconds": 25.524,
+          "checkpoint_sha256": "48bbb29b9c63616b014f6837f39d6d7c875d09d6859a6405fb555fef39a8dc6c"
+        },
+        {
+          "auc": 0.8070480879891191,
+          "rmse": 0.42143882172971425,
+          "acc": 0.7384960718294051,
+          "count": 3564,
+          "fold": 3,
+          "seed": 12408,
+          "best_epoch": 29,
+          "best_valid_auc": 0.8659343214181923,
+          "epochs_run": 39,
+          "elapsed_seconds": 17.698,
+          "checkpoint_sha256": "96e28136c531c97c1b527e79559c882e39a50711e884dcbe22eaa1e66d18ab47"
+        },
+        {
+          "auc": 0.8236097921283105,
+          "rmse": 0.407453588054277,
+          "acc": 0.7609427609427609,
+          "count": 3564,
+          "fold": 4,
+          "seed": 12409,
+          "best_epoch": 37,
+          "best_valid_auc": 0.8048362542429672,
+          "epochs_run": 47,
+          "elapsed_seconds": 14.318,
+          "checkpoint_sha256": "2f39a5c76f474dcc7f9a22ad8a2b7b5951f3779ec49cf2329bdb5572dabe0e97"
+        }
+      ],
+      "fold_training_seconds_sum": 105.07300000000001,
+      "base_seed": 12405,
+      "config": {
+        "data_name": "spanish",
+        "data_path": "dataset/spanish/preprocessed_df.csv",
+        "seed": 12405,
+        "num_folds": 5,
+        "validation_fraction": 0.1,
+        "model": {
+          "hidden_size": 64,
+          "num_blocks": 2,
+          "num_attn_heads": 8,
+          "kq_same": true,
+          "final_fc_dim": 512,
+          "d_ff": 1024,
+          "l2": 0.0,
+          "dropout": 0.2,
+          "reg_cl": 0.1,
+          "mask_prob": 0.5,
+          "crop_prob": 0.3,
+          "permute_prob": 0.5,
+          "replace_prob": 0.5,
+          "negative_prob": 1.0,
+          "temp": 0.05,
+          "hard_negative_weight": 1.0
+        },
+        "train": {
+          "seq_len": 100,
+          "batch_size": 512,
+          "eval_batch_size": 512,
+          "num_epochs": 300,
+          "patience": 10,
+          "learning_rate": 0.001,
+          "max_grad_norm": 2.0,
+          "num_workers": 0,
+          "cpu_threads": 4
+        }
+      },
+      "gpu": {
+        "logical_device": "cuda:0",
+        "cuda_visible_devices": "7",
+        "physical_device_token": "7",
+        "physical_gpu_ordinal": 7,
+        "gpu_name": "NVIDIA GeForce RTX 4090",
+        "mapping_source": "environment.json; no GPU is queried by this script",
+        "note": "Unrecorded visibility mappings are left unknown rather than inferred from the current machine."
+      },
+      "recorded_environment": {
+        "python": "3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:16:04) [GCC 11.2.0]",
+        "executable": "/data/sqh/CL4KT/.venv/bin/python",
+        "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+        "torch": "2.6.0+cu124",
+        "cuda": "12.4",
+        "numpy": "1.26.4",
+        "pandas": "2.3.3",
+        "sklearn": "1.8.0",
+        "device": "cuda:0",
+        "cuda_visible_devices": "7",
+        "cublas_workspace_config": ":4096:8",
+        "deterministic_algorithms": "enabled, warn_only=True",
+        "gpu": "NVIDIA GeForce RTX 4090",
+        "data_sha256": "14932238cf7078859343fdafb52a987316e71429e4ea7c83dfa681e7c50877b5",
+        "upstream_commit": "f08aa4b5adb8eabfa4306b64e43bf3ac92ff06a2",
+        "recorded_at": "2026-11-05T10:06:32.523917+08:00",
+        "command": [
+          "scripts/train_gpu7.py",
+          "--config",
+          "configs/spanish.yaml",
+          "--device",
+          "cuda:0",
+          "--output-dir",
+          "/data/sqh/CL4KT/results/gpu7/spanish-fivefold"
+        ]
+      },
+      "recorded_execution": {
+        "schema_version": 1,
+        "physical_gpu": 7,
+        "cuda_visible_devices": "7",
+        "cuda_device_order": "PCI_BUS_ID",
+        "precision": "float32",
+        "training_batch_size": 512,
+        "activation_checkpointing": {
+          "enabled": true,
+          "target": "models.modules.CL4KTTransformerLayer.forward",
+          "use_reentrant": false,
+          "preserve_rng_state": true,
+          "condition": "module.training and torch.is_grad_enabled()"
+        },
+        "launcher_sha256": "83821a1d121ad3edeeb37f5463c6ef54d9713ebe7849825b2fb825eee348e61f",
+        "config_sha256": "8055f2c8bb22a7eaeb1486c3d407d47217e717c7a720bfeeaf4127743f90051b",
+        "torch": "2.6.0+cu124",
+        "cuda": "12.4",
+        "launcher_snapshot": "launcher/train_gpu7.py",
+        "previous_cuda_visible_devices": "7",
+        "previous_cuda_device_order": null,
+        "logical_device": "cuda:0",
+        "gpu_name": "NVIDIA GeForce RTX 4090",
+        "gpu_uuid": "8faa09bb-67c4-5def-c1c8-802f5f5271a8",
+        "physical_gpu_details": {
+          "index": 7,
+          "uuid": "GPU-8faa09bb-67c4-5def-c1c8-802f5f5271a8",
+          "pci_bus_id": "00000000:20:00.0"
+        },
+        "autocast_enabled": false,
+        "python": "3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:16:04) [GCC 11.2.0]",
+        "executable": "/data/sqh/CL4KT/.venv/bin/python",
+        "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+        "config_path": "/data/sqh/CL4KT/configs/spanish.yaml",
+        "seed": 12405,
+        "optimizer": "Adam (unchanged main.py)",
+        "checkpointing_implementation": "runtime wrapper; core source files unchanged",
+        "command": [
+          "scripts/train_gpu7.py",
+          "--config",
+          "configs/spanish.yaml",
+          "--device",
+          "cuda:0",
+          "--output-dir",
+          "/data/sqh/CL4KT/results/gpu7/spanish-fivefold"
+        ],
+        "recorded_at": "2026-11-05T10:06:31.968027+08:00",
+        "exit_status": "success",
+        "failure": null,
+        "finished_at": "2026-11-05T10:08:20.782013+08:00",
+        "peak_cuda_memory_allocated": 767795200,
+        "peak_cuda_memory_reserved": 989855744
+      },
+      "execution_metadata_path": "/data/sqh/CL4KT/results/gpu7/spanish-fivefold/execution.json",
+      "execution_metadata_sha256": "302d7297fc756b6a29b20f0276262d9884061b8d9b41715a21981295d10813b8",
+      "source_sha256": {
+        "main.py": "5fe72742ac4d2b3c8bd03be783dfd9179a8d34b2ccf996806474f1c46a24e1e4",
+        "data_loaders.py": "6b665339f36f7d6db98ef169519337c47cc59923ca24bf100a89c19839adffce",
+        "utils/augment_seq.py": "d643193b6b0e8de45a35493e9cb92b9d11d3a20855a0ce5ceffa0655e4ea487c",
+        "models/cl4kt.py": "3a03c046bde1de094b092772ecb54bb7f8e945b38edc4b281e635b9e7cad7ac0",
+        "models/modules.py": "26f944d431817cc3ec549ab07bb7db9808b2a6291ca25a52d482ce8a63d8fa54"
+      },
+      "source_sha256_file": "/data/sqh/CL4KT/results/gpu7/spanish-fivefold/source_sha256.json",
+      "full_verification_passed": true,
+      "verifier": "scripts.verify_run.verify_run (CPU checkpoint loading; read-only)",
+      "data": {
+        "data_path": "/data/sqh/CL4KT/dataset/spanish/preprocessed_df.csv",
+        "data_sha256": "14932238cf7078859343fdafb52a987316e71429e4ea7c83dfa681e7c50877b5",
+        "manifest_path": "/data/sqh/CL4KT/dataset/spanish/manifest.json",
+        "manifest_sha256": "a568dfaecef4ca7fcfda1a6ac0217a2e63344d091009d6498c9bd2da393735d6",
+        "actual_statistics_before_last100_truncation": {
+          "students": 182,
+          "questions": 409,
+          "interactions": 578726,
+          "model_skill_tokens": 221,
+          "skills_table1_convention": 221
+        },
+        "paper_table1_comparison": {
+          "students": {
+            "actual": 182,
+            "paper": 182,
+            "matches": true
+          },
+          "questions": {
+            "actual": 409,
+            "paper": 409,
+            "matches": true
+          },
+          "skills": {
+            "actual": 221,
+            "paper": 221,
+            "matches": true
+          },
+          "interactions": {
+            "actual": 578726,
+            "paper": 578726,
+            "matches": true
+          }
+        },
+        "matches_paper_table1_statistics": true,
+        "exact_paper_sample_established": false,
+        "sample_comparability": "author-published WCRP responses and expert labels; Table 1 counts match",
+        "new_fixed_sample": false,
+        "sampling_seed": null,
+        "public_sequence_version": false,
+        "raw_sources": [
+          {
+            "filename": "spanish_dataset.txt",
+            "repository": "robert-lindsey/WCRP",
+            "commit": "7e46c02d430b5fdc7a13dda42cc965b87f640346",
+            "repository_path": "datasets/spanish_dataset.txt",
+            "sha256": "47aec7f0d52d11e87d9e8e1415a7d41e02e2219075fb3b0e4d710bc011af1769",
+            "url": "https://raw.githubusercontent.com/robert-lindsey/WCRP/7e46c02d430b5fdc7a13dda42cc965b87f640346/datasets/spanish_dataset.txt",
+            "local_path": "/data/sqh/CL4KT/dataset/spanish/spanish_dataset.txt",
+            "size_bytes": 5320569,
+            "downloaded_by_this_invocation": false
+          },
+          {
+            "filename": "spanish_expert_labels.txt",
+            "repository": "robert-lindsey/WCRP",
+            "commit": "7e46c02d430b5fdc7a13dda42cc965b87f640346",
+            "repository_path": "datasets/spanish_expert_labels.txt",
+            "sha256": "85aaf66ad12bd315a81ce96a4d824d0bfcf7dd943d1be6bffd3fda070cb60d35",
+            "url": "https://raw.githubusercontent.com/robert-lindsey/WCRP/7e46c02d430b5fdc7a13dda42cc965b87f640346/datasets/spanish_expert_labels.txt",
+            "local_path": "/data/sqh/CL4KT/dataset/spanish/spanish_expert_labels.txt",
+            "size_bytes": 1359,
+            "downloaded_by_this_invocation": false
+          }
+        ],
+        "limitations_and_protocol_notes": [
+          "Original file order defines temporal order; source has no real timestamps.",
+          "Official preprocessing uses zero timestamps and preserves within-student input order.",
+          "Author repository licenses code under MIT; no separate dataset license is stated in README."
+        ]
+      },
+      "paper_reference": {
+        "title": "Contrastive Learning for Knowledge Tracing",
+        "authors": "Wonsung Lee, Jaeyoon Chun, Youngmin Lee, Kyoungsoo Park, Sungrae Park",
+        "venue": "The ACM Web Conference 2022",
+        "doi": "10.1145/3485447.3512105",
+        "url": "https://doi.org/10.1145/3485447.3512105",
+        "local_notes": "docs/PAPER.md",
+        "dataset_statistics_table": 1,
+        "model_metrics_table": 2,
+        "reported_uncertainty": "Table 2 provides fold means without numerical standard deviations."
+      },
+      "comparison_note": "Positive AUC delta and negative RMSE delta indicate higher performance. No significance claim is inferred."
+    },
+    {
+      "dataset": "statics",
+      "paper_dataset_name": "statics",
+      "display_label": "Statics†",
+      "run_dir": "/data/sqh/CL4KT/results/gpu7/statics-fivefold",
+      "complete": true,
+      "completed_folds": 5,
+      "metrics": {
+        "auc": {
+          "mean": 0.7936854048350849,
+          "std_population": 0.006129272614993458,
+          "fold_values": [
+            0.7962934545707814,
+            0.8013577743337622,
+            0.7834549669572025,
+            0.7907015606157497,
+            0.7966192676979285
+          ],
+          "paper_mean": 0.7943,
+          "paper_std": null,
+          "delta_reproduced_minus_paper": -0.0006145951649151327
+        },
+        "rmse": {
+          "mean": 0.3949049113331003,
+          "std_population": 0.005382053110171349,
+          "fold_values": [
+            0.3921149638906907,
+            0.3908451413680142,
+            0.40161342446380116,
+            0.4011217652461171,
+            0.3888292616968783
+          ],
+          "paper_mean": 0.3945,
+          "paper_std": null,
+          "delta_reproduced_minus_paper": 0.0004049113331002774
+        },
+        "acc": {
+          "mean": 0.7745825177723503,
+          "std_population": 0.010539729659176671,
+          "fold_values": [
+            0.7819536423841059,
+            0.7827591890555464,
+            0.7602448563169529,
+            0.7633018398806564,
+            0.7846530612244897
+          ],
+          "paper_mean": null,
+          "paper_std": null,
+          "delta_reproduced_minus_paper": null
+        }
+      },
+      "folds": [
+        {
+          "auc": 0.7962934545707814,
+          "rmse": 0.3921149638906907,
+          "acc": 0.7819536423841059,
+          "count": 6040,
+          "fold": 0,
+          "seed": 12405,
+          "best_epoch": 76,
+          "best_valid_auc": 0.8113621679145605,
+          "epochs_run": 86,
+          "elapsed_seconds": 58.439,
+          "checkpoint_sha256": "0063ca135470a9c5be43bbe604e119c11344d2b6de8b2ba433ee0671db870d89"
+        },
+        {
+          "auc": 0.8013577743337622,
+          "rmse": 0.3908451413680142,
+          "acc": 0.7827591890555464,
+          "count": 6067,
+          "fold": 1,
+          "seed": 12406,
+          "best_epoch": 74,
+          "best_valid_auc": 0.7842143311330466,
+          "epochs_run": 84,
+          "elapsed_seconds": 44.933,
+          "checkpoint_sha256": "90dcf5437c745d9b0afa57bbee9dea8ec7495367ec69555f928c00a4ccd28192"
+        },
+        {
+          "auc": 0.7834549669572025,
+          "rmse": 0.40161342446380116,
+          "acc": 0.7602448563169529,
+          "count": 5881,
+          "fold": 2,
+          "seed": 12407,
+          "best_epoch": 60,
+          "best_valid_auc": 0.8069486984904867,
+          "epochs_run": 70,
+          "elapsed_seconds": 49.928,
+          "checkpoint_sha256": "780598361a98f03af220665f345c96f37684fa6d304902f5d954e4346492cbf3"
+        },
+        {
+          "auc": 0.7907015606157497,
+          "rmse": 0.4011217652461171,
+          "acc": 0.7633018398806564,
+          "count": 6033,
+          "fold": 3,
+          "seed": 12408,
+          "best_epoch": 75,
+          "best_valid_auc": 0.8077064169149225,
+          "epochs_run": 85,
+          "elapsed_seconds": 47.603,
+          "checkpoint_sha256": "7307850c9c4cda2f7d8056a32ae940041e4a21f5b75e2ef5508db2d6e10e4e86"
+        },
+        {
+          "auc": 0.7966192676979285,
+          "rmse": 0.3888292616968783,
+          "acc": 0.7846530612244897,
+          "count": 6125,
+          "fold": 4,
+          "seed": 12409,
+          "best_epoch": 86,
+          "best_valid_auc": 0.7877997357975112,
+          "epochs_run": 96,
+          "elapsed_seconds": 64.99,
+          "checkpoint_sha256": "1f33726bbadcdaa0133fad64908e60ac8b9406ab5eace3d74af681afba37a962"
+        }
+      ],
+      "fold_training_seconds_sum": 265.893,
+      "base_seed": 12405,
+      "config": {
+        "data_name": "statics",
+        "data_path": "dataset/statics/preprocessed_df.csv",
+        "seed": 12405,
+        "num_folds": 5,
+        "validation_fraction": 0.1,
+        "model": {
+          "hidden_size": 64,
+          "num_blocks": 2,
+          "num_attn_heads": 8,
+          "kq_same": true,
+          "final_fc_dim": 512,
+          "d_ff": 1024,
+          "l2": 0.0,
+          "dropout": 0.2,
+          "reg_cl": 0.1,
+          "mask_prob": 0.5,
+          "crop_prob": 0.3,
+          "permute_prob": 0.5,
+          "replace_prob": 0.5,
+          "negative_prob": 1.0,
+          "temp": 0.05,
+          "hard_negative_weight": 1.0
+        },
+        "train": {
+          "seq_len": 100,
+          "batch_size": 512,
+          "eval_batch_size": 512,
+          "num_epochs": 300,
+          "patience": 10,
+          "learning_rate": 0.001,
+          "max_grad_norm": 2.0,
+          "num_workers": 0,
+          "cpu_threads": 4
+        }
+      },
+      "gpu": {
+        "logical_device": "cuda:0",
+        "cuda_visible_devices": "7",
+        "physical_device_token": "7",
+        "physical_gpu_ordinal": 7,
+        "gpu_name": "NVIDIA GeForce RTX 4090",
+        "mapping_source": "environment.json; no GPU is queried by this script",
+        "note": "Unrecorded visibility mappings are left unknown rather than inferred from the current machine."
+      },
+      "recorded_environment": {
+        "python": "3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:16:04) [GCC 11.2.0]",
+        "executable": "/data/sqh/CL4KT/.venv/bin/python",
+        "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+        "torch": "2.6.0+cu124",
+        "cuda": "12.4",
+        "numpy": "1.26.4",
+        "pandas": "2.3.3",
+        "sklearn": "1.8.0",
+        "device": "cuda:0",
+        "cuda_visible_devices": "7",
+        "cublas_workspace_config": ":4096:8",
+        "deterministic_algorithms": "enabled, warn_only=True",
+        "gpu": "NVIDIA GeForce RTX 4090",
+        "data_sha256": "86e372db9bfb2fb166cec487d9023fcfc255c049abe532a28322dc23e372540d",
+        "upstream_commit": "f08aa4b5adb8eabfa4306b64e43bf3ac92ff06a2",
+        "recorded_at": "2026-11-05T10:08:28.833862+08:00",
+        "command": [
+          "scripts/train_gpu7.py",
+          "--config",
+          "configs/statics.yaml",
+          "--device",
+          "cuda:0",
+          "--output-dir",
+          "/data/sqh/CL4KT/results/gpu7/statics-fivefold"
+        ]
+      },
+      "recorded_execution": {
+        "schema_version": 1,
+        "physical_gpu": 7,
+        "cuda_visible_devices": "7",
+        "cuda_device_order": "PCI_BUS_ID",
+        "precision": "float32",
+        "training_batch_size": 512,
+        "activation_checkpointing": {
+          "enabled": true,
+          "target": "models.modules.CL4KTTransformerLayer.forward",
+          "use_reentrant": false,
+          "preserve_rng_state": true,
+          "condition": "module.training and torch.is_grad_enabled()"
+        },
+        "launcher_sha256": "83821a1d121ad3edeeb37f5463c6ef54d9713ebe7849825b2fb825eee348e61f",
+        "config_sha256": "f7da45a54714133a68cf6893198e15cce19d479ea9d7977ee17f725c19f00b04",
+        "torch": "2.6.0+cu124",
+        "cuda": "12.4",
+        "launcher_snapshot": "launcher/train_gpu7.py",
+        "previous_cuda_visible_devices": "7",
+        "previous_cuda_device_order": null,
+        "logical_device": "cuda:0",
+        "gpu_name": "NVIDIA GeForce RTX 4090",
+        "gpu_uuid": "8faa09bb-67c4-5def-c1c8-802f5f5271a8",
+        "physical_gpu_details": {
+          "index": 7,
+          "uuid": "GPU-8faa09bb-67c4-5def-c1c8-802f5f5271a8",
+          "pci_bus_id": "00000000:20:00.0"
+        },
+        "autocast_enabled": false,
+        "python": "3.12.12 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 20:16:04) [GCC 11.2.0]",
+        "executable": "/data/sqh/CL4KT/.venv/bin/python",
+        "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+        "config_path": "/data/sqh/CL4KT/configs/statics.yaml",
+        "seed": 12405,
+        "optimizer": "Adam (unchanged main.py)",
+        "checkpointing_implementation": "runtime wrapper; core source files unchanged",
+        "command": [
+          "scripts/train_gpu7.py",
+          "--config",
+          "configs/statics.yaml",
+          "--device",
+          "cuda:0",
+          "--output-dir",
+          "/data/sqh/CL4KT/results/gpu7/statics-fivefold"
+        ],
+        "recorded_at": "2026-11-05T10:08:28.390680+08:00",
+        "exit_status": "success",
+        "failure": null,
+        "finished_at": "2026-11-05T10:12:56.814927+08:00",
+        "peak_cuda_memory_allocated": 1385854976,
+        "peak_cuda_memory_reserved": 1757413376
+      },
+      "execution_metadata_path": "/data/sqh/CL4KT/results/gpu7/statics-fivefold/execution.json",
+      "execution_metadata_sha256": "74a6398c95d8579ce483f2710abcd4f06b31bea8593bf864ff17ccc1f33b56b7",
+      "source_sha256": {
+        "main.py": "5fe72742ac4d2b3c8bd03be783dfd9179a8d34b2ccf996806474f1c46a24e1e4",
+        "data_loaders.py": "6b665339f36f7d6db98ef169519337c47cc59923ca24bf100a89c19839adffce",
+        "utils/augment_seq.py": "d643193b6b0e8de45a35493e9cb92b9d11d3a20855a0ce5ceffa0655e4ea487c",
+        "models/cl4kt.py": "3a03c046bde1de094b092772ecb54bb7f8e945b38edc4b281e635b9e7cad7ac0",
+        "models/modules.py": "26f944d431817cc3ec549ab07bb7db9808b2a6291ca25a52d482ce8a63d8fa54"
+      },
+      "source_sha256_file": "/data/sqh/CL4KT/results/gpu7/statics-fivefold/source_sha256.json",
+      "full_verification_passed": true,
+      "verifier": "scripts.verify_run.verify_run (CPU checkpoint loading; read-only)",
+      "data": {
+        "data_path": "/data/sqh/CL4KT/dataset/statics/preprocessed_df.csv",
+        "data_sha256": "86e372db9bfb2fb166cec487d9023fcfc255c049abe532a28322dc23e372540d",
+        "manifest_path": "/data/sqh/CL4KT/dataset/statics/manifest.json",
+        "manifest_sha256": "8861ade308463778e7af98bce25bc449a0abf5f676507d64489cd273d8bbf4b1",
+        "actual_statistics_before_last100_truncation": {
+          "students": 333,
+          "questions": 1223,
+          "interactions": 189297,
+          "model_skill_tokens": 1223,
+          "skills_table1_convention": 1223
+        },
+        "paper_table1_comparison": {
+          "students": {
+            "actual": 333,
+            "paper": 333,
+            "matches": true
+          },
+          "questions": {
+            "actual": 1223,
+            "paper": null,
+            "matches": null
+          },
+          "skills": {
+            "actual": 1223,
+            "paper": 1223,
+            "matches": true
+          },
+          "interactions": {
+            "actual": 189297,
+            "paper": 189297,
+            "matches": true
+          }
+        },
+        "matches_paper_table1_statistics": true,
+        "exact_paper_sample_established": false,
+        "sample_comparability": "complete public AKT 333-student sequence version; counts match but source/fold identity is not proven",
+        "new_fixed_sample": false,
+        "sampling_seed": null,
+        "public_sequence_version": true,
+        "raw_sources": [
+          {
+            "filename": "statics_sequences.csv",
+            "repository": "arghosh/AKT",
+            "commit": "01b7e8d7d7c862cabc9467108e3e7f2555653a88",
+            "repository_path": "data/statics/statics.csv",
+            "sha256": "cd8b6ed640bb2e3dfd63ec681e17ec2262fb7284cea8735d1cfc2f317d17bab1",
+            "url": "https://raw.githubusercontent.com/arghosh/AKT/01b7e8d7d7c862cabc9467108e3e7f2555653a88/data/statics/statics.csv",
+            "local_path": "/data/sqh/CL4KT/dataset/statics/statics_sequences.csv",
+            "size_bytes": 1131524,
+            "downloaded_by_this_invocation": false
+          }
+        ],
+        "limitations_and_protocol_notes": [
+          "This is the complete public AKT sequence version, not a DataShop raw export.",
+          "Student ID is the zero-based sequence-block index; original anonymous IDs are unavailable.",
+          "Within-student interaction order and boundaries are preserved exactly; original timestamps are unavailable.",
+          "Timestamp is zero and is a placeholder, not an observed event time.",
+          "item_id and skill_id both reference the published exercise token; a separate original question ID is unavailable.",
+          "Matching paper counts establishes statistical compatibility, not proof of identical CL4KT author data or folds."
+        ]
+      },
+      "paper_reference": {
+        "title": "Contrastive Learning for Knowledge Tracing",
+        "authors": "Wonsung Lee, Jaeyoon Chun, Youngmin Lee, Kyoungsoo Park, Sungrae Park",
+        "venue": "The ACM Web Conference 2022",
+        "doi": "10.1145/3485447.3512105",
+        "url": "https://doi.org/10.1145/3485447.3512105",
+        "local_notes": "docs/PAPER.md",
+        "dataset_statistics_table": 1,
+        "model_metrics_table": 2,
+        "reported_uncertainty": "Table 2 provides fold means without numerical standard deviations."
+      },
+      "comparison_note": "Positive AUC delta and negative RMSE delta indicate higher performance. No significance claim is inferred."
+    }
+  ]
+}

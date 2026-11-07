@@ -1,0 +1,17 @@
+{
+  "train": {
+    "students": 819,
+    "retained_interactions": 79727,
+    "scored_interactions": 78949
+  },
+  "valid": {
+    "students": 91,
+    "retained_interactions": 8955,
+    "scored_interactions": 8867
+  },
+  "test": {
+    "students": 228,
+    "retained_interactions": 22320,
+    "scored_interactions": 22100
+  }
+}

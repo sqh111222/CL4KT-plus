@@ -1,0 +1,8 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Dataset files are kept locally; use the preparation scripts to recreate them.
+/dataset/

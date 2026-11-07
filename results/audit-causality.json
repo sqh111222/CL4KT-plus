@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "torch": "2.6.0+cu124",
+  "device": "cpu",
+  "seed": 1,
+  "upstream_commit": "f08aa4b5adb8eabfa4306b64e43bf3ac92ff06a2",
+  "upstream_source_sha256": {
+    "models/modules.py": "cad8ff2179b9d4b405770db0d580c06ae1a9fae7c2f5fcade9f66ede78e6b036",
+    "models/cl4kt.py": "f289575a962378333eeeb747e7ab3549f735474866a13908441fdeb3350eb891"
+  },
+  "model_state_sha256": "fa29ad37a2d596b8f01b416793eb05664e8d3a96fdff473237ec97f87544535c",
+  "model_config": {
+    "hidden_size": 64,
+    "num_blocks": 2,
+    "num_attn_heads": 8,
+    "kq_same": true,
+    "final_fc_dim": 512,
+    "d_ff": 1024,
+    "l2": 0.0,
+    "dropout": 0.0,
+    "reg_cl": 0.1,
+    "negative_prob": 1.0,
+    "hard_negative_weight": 1.0,
+    "temp": 0.05
+  },
+  "change": "Flip responses[:, 5:] while keeping all questions and earlier answers fixed",
+  "checked_targets": "Original sequence positions 1 through 5 inclusive, zero-based",
+  "compatibility_change": "get_device() -> device in the temporary copy only",
+  "minimal_fix": "Multiply individual_attention's final softmax probabilities by its allowed-position mask",
+  "original": {
+    "differences": [
+      [
+        0.0,
+        -0.00012058019638061523,
+        9.816884994506836e-05,
+        -3.3080577850341797e-06,
+        -2.2470951080322266e-05
+      ],
+      [
+        0.0,
+        -7.140636444091797e-05,
+        -0.00010919570922851562,
+        0.00018259882926940918,
+        2.3424625396728516e-05
+      ]
+    ],
+    "max_abs_diff": 0.00018259882926940918,
+    "mean_abs_diff": 6.311535980785266e-05
+  },
+  "fixed": {
+    "differences": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0
+  },
+  "model_weights_unchanged": true,
+  "upstream_sources_unchanged": true,
+  "recorded_at": "2026-11-04T15:12:35.298763+08:00"
+}

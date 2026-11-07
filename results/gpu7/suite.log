@@ -1,0 +1,46 @@
+{
+  "data_name": "spanish",
+  "data_path": "/data/sqh/CL4KT/dataset/spanish/preprocessed_df.csv",
+  "students": 182,
+  "interactions": 578726,
+  "passed": true
+}
+START spanish on physical GPU7; log=/data/sqh/CL4KT/results/gpu7/spanish-fivefold.log
+COMPLETE spanish: {"auc": 0.8227741309760512, "rmse": 0.40870357398357016, "acc": 0.7563290563290563}
+{
+  "data_name": "statics",
+  "data_path": "/data/sqh/CL4KT/dataset/statics/preprocessed_df.csv",
+  "students": 333,
+  "interactions": 189297,
+  "passed": true
+}
+START statics on physical GPU7; log=/data/sqh/CL4KT/results/gpu7/statics-fivefold.log
+COMPLETE statics: {"auc": 0.7936854048350849, "rmse": 0.3949049113331003, "acc": 0.7745825177723503}
+{
+  "data_name": "algebra05",
+  "data_path": "/data/sqh/CL4KT/dataset/algebra05/preprocessed_df.csv",
+  "students": 571,
+  "interactions": 607014,
+  "passed": true
+}
+START algebra05 on physical GPU7; log=/data/sqh/CL4KT/results/gpu7/algebra05-fivefold.log
+COMPLETE algebra05: {"auc": 0.7878388746596372, "rmse": 0.38262295603306795, "acc": 0.7951497546616293}
+{
+  "data_name": "bridge_algebra06",
+  "data_path": "/data/sqh/CL4KT/dataset/bridge_algebra06/preprocessed_df.csv",
+  "students": 1138,
+  "interactions": 1817450,
+  "passed": true
+}
+START bridge_algebra06 on physical GPU7; log=/data/sqh/CL4KT/results/gpu7/bridge_algebra06-fivefold.log
+COMPLETE bridge_algebra06: {"auc": 0.7704401188583259, "rmse": 0.3803678717927488, "acc": 0.7976715244964356}
+{
+  "data_name": "sampled_slepemapy",
+  "data_path": "/data/sqh/CL4KT/dataset/sampled_slepemapy/preprocessed_df.csv",
+  "students": 5000,
+  "interactions": 623212,
+  "passed": true
+}
+START sampled_slepemapy on physical GPU7; log=/data/sqh/CL4KT/results/gpu7/sampled_slepemapy-fivefold.log
+COMPLETE sampled_slepemapy: {"auc": 0.7095788018527517, "rmse": 0.3949249406113606, "acc": 0.7861066449069166}
+All requested GPU7 experiments complete: /data/sqh/CL4KT/results/gpu7/suite.json
