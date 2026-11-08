@@ -4,5 +4,7 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 
-# Dataset files are kept locally; use the preparation scripts to recreate them.
-/dataset/
+# Datasets, including those bundled with reference code, are kept locally.
+data/
+dataset/
+datasets/
